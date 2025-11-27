@@ -5,7 +5,7 @@ $isHome = isset($is_home) ? $is_home : false;
 <header class="main-header" id="scrollHeader">
     <div class="header-container-scroll">
         <div class="logo-scroll">
-            <img src="assets/logo/scroll-logo.png" alt="">
+            <img src="<?= base_url() ?>assets/logo/scroll-logo.svg" alt="">
         </div>
 
         <div class="header-container2">
@@ -25,7 +25,7 @@ $isHome = isset($is_home) ? $is_home : false;
 
     <div class="menu-content">
 
-        <img src="assets/logo/logo.png" class="menu-logo" alt="Floria Logo">
+        <img src="assets/logo/logo.svg" class="menu-logo" alt="Floria Logo">
 
         <p class="menu-text font-nexalight  ">
             Welcome to Floria, a place where all flower shops
@@ -33,8 +33,8 @@ $isHome = isset($is_home) ? $is_home : false;
         </p>
 
 
-        <img class="menu-signature" src="<?= base_url() ?>assets/icons/FLORIA-Signature.svg">
-        <p class="menu-small-sub font-oswaldextralight">Founder, Soheila</p>
+        <img class="menu-signature" src="<?= base_url() ?>assets/icons/sign.png">
+        <p class="menu-small-sub font-oswaldextralight">Founder</p>
 
         <div class="menu-grid">
             <img src="<?= base_url() ?>assets/Images/menu-1.jpg">

@@ -4,7 +4,7 @@
 <header class="floria-header">
     <div class="header-container">
         <div class="logo">
-            <img src="assets/logo/logo.png" alt="Floria Luxe">
+            <img src="assets/logo/logo.svg" alt="Floria Luxe">
         </div>
 
         <div class="header-container2">
@@ -27,7 +27,7 @@
 
     <div class="menu-content">
 
-        <img src="assets/logo/logo.png" class="menu-logo" alt="Floria Logo">
+        <img src="assets/logo/logo.svg" class="menu-logo" alt="Floria Logo">
 
         <p class="menu-text font-nexalight   ">
             Welcome to Floria, a place where all flower shops
@@ -35,8 +35,8 @@
         </p>
 
 
-        <img class="menu-signature" src="<?= base_url() ?>assets/icons/FLORIA-Signature.svg">
-        <p class="menu-small-sub font-oswaldextralight">Founder, Soheila</p>
+        <img class="menu-signature" src="<?= base_url() ?>assets/icons/sign.png">
+        <p class="menu-small-sub font-oswaldextralight">Founder</p>
 
         <div class="menu-grid">
             <img src="<?= base_url() ?>assets/Images/menu-1.jpg">
@@ -60,10 +60,6 @@
 
     </div>
 </div>
-
-
-
-
 
 <section>
     <div class="bg-layer"></div>
@@ -258,7 +254,7 @@
 
             <div class="col-lg-4 col-md-6">
                 <div class="cat-card">
-                    <a href="products.html">
+                    <a href="#">
                         <img src="assets/Images/FLORIA-11.jpg" alt="Hydrangeas">
                     </a>
                 </div>
@@ -267,7 +263,7 @@
 
             <div class="col-lg-4 col-md-6">
                 <div class="cat-card">
-                    <a href="products.html">
+                    <a href="#">
                         <img src="assets/Images/FLORIA-12.jpg" alt="Tulip">
                     </a>
                 </div>
@@ -305,7 +301,7 @@
 
     <div class="title-wrapper">
         <h2 class="emotion-title font-canegroni">
-            BLOOM WITH <br> EVERY EMOTION <img class="mb-3" src="<?= base_url() ?>assets/icons/FLORIA-CLICK-ICON -1" alt="" width="30px">
+            BLOOM WITH <br> EVERY EMOTION  <img class="mb-3" src="<?= base_url() ?>assets/icons/FLORIA-CLICK-ICON-1.svg" alt="" width="35px">
         </h2>
 
     </div>
@@ -325,7 +321,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="emotion-card">
-                        <a href="products.html">
+                        <a href="#">
                             <img src="assets/Images/FLORIA-15.jpg" alt="">
                         </a>
                         <div class="label-box font-nexalight">Valentine's Day</div>
@@ -334,7 +330,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="emotion-card">
-                        <a href="products.html">
+                        <a href="#">
                             <img src="assets/Images/FLORIA-16.jpg" alt="">
                         </a>
                         <div class="label-box font-nexalight">Mother's Day</div>
@@ -343,7 +339,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="emotion-card">
-                        <a href="products.html">
+                        <a href="#">
                             <img src="assets/Images/FLORIA-17.jpg" alt="">
                         </a>
                         <div class="label-box font-nexalight">Birth Day</div>
@@ -352,7 +348,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="emotion-card">
-                        <a href="products.html">
+                        <a href="#">
                             <img src="assets/Images/FLORIA-18.jpg" alt="">
                         </a>
                         <div class="label-box font-nexalight">Valentine's Day</div>
@@ -361,7 +357,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="emotion-card">
-                        <a href="products.html">
+                        <a href="#">
                             <img src="assets/Images/FLORIA-19.jpg" alt="">
                         </a>
                         <div class="label-box font-nexalight">Mother's Day</div>
@@ -370,7 +366,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="emotion-card">
-                        <a href="products.html">
+                        <a href="#">
                             <img src="assets/Images/FLORIA-20.jpg" alt="">
                         </a>
                         <div class="label-box font-nexalight">Birth Day</div>
@@ -405,7 +401,7 @@
     </div>
 
     <div class="section-heading font-canegroni">
-        CHOSEN AT <br> THEIR BEST
+        CHOSEN AT <br> THEIR BEST <img class="mb-3" src="<?= base_url() ?>assets/icons/FLORIA-CLICK-ICON-1.svg" alt="" width="35px">
 
     </div>
 

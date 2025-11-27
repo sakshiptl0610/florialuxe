@@ -2,7 +2,7 @@
   <div class="header-container-simple">
 
     <div class="logo-simple">
-      <img src="assets/logo/scroll-logo.png" alt="Floria Luxe">
+      <img src="<?= base_url() ?>assets/logo/scroll-logo.svg" alt="Floria Luxe">
     </div>
 
     <div class="header-container2">
@@ -23,15 +23,15 @@
 
   <div class="menu-content">
 
-    <img src="assets/logo/logo.png" class="menu-logo" alt="Floria Logo">
+    <img src="<?= base_url() ?>assets/logo/logo.svg" class="menu-logo" alt="Floria Logo">
 
     <p class="menu-text font-nexalight  ">
       Welcome to Floria, a place where all flower shops
       take on a whole new dimension of beautiful.
     </p>
 
-    <img class="menu-signature" src="<?= base_url() ?>assets/icons/FLORIA-Signature.svg">
-    <p class="menu-small-sub font-oswaldextralight">Founder, Soheila</p>
+    <img class="menu-signature" src="<?= base_url() ?>assets/icons/sign.png">
+    <p class="menu-small-sub font-oswaldextralight">Founder</p>
 
     <div class="menu-grid">
       <img src="<?= base_url() ?>assets/Images/menu-1.jpg">

@@ -8,7 +8,7 @@
         </div>
 
         <div class="footer-right">
-            <img src="<?= base_url() ?>assets/logo/footer-logo.png" class="footer-logo" alt="Floria Luxe Logo">
+            <img src="<?= base_url() ?>assets/logo/footer-logo.svg" class="footer-logo" alt="Floria Luxe Logo">
         </div>
 
     </div>

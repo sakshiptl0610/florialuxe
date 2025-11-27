@@ -12,7 +12,7 @@
 
 
 <!-- ⭐ FILTER AREA – MOVED OUTSIDE MAIN-CONTAINER -->
-<div class="filter-area text-center pt-5 pb-4 main-container ">
+<div class="filter-area text-center pt-5 pb-4 main-container">
   <div class="filter-wrapper">
 
     <ul class="filter-bar font-oswaldextralight">

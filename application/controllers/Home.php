@@ -26,7 +26,7 @@ class Home extends CI_Controller
 
         $this->load->view('productdetails');
     }
-
+    
     public function cart()
     {
         $data['title'] = 'cart';

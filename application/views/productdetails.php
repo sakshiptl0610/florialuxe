@@ -16,7 +16,7 @@
                 </div>
 
                 <div>
-                    <a href="<?php echo base_url('checkout'); ?>">
+                    <a href="<?php echo base_url('cart'); ?>">
                         <button class="cart-btn ms-3">View cart</button></a>
                 </div>
             </div>
@@ -79,123 +79,123 @@
             </div>
 
             <!-- PRODUCT TABS -->
-            <div class="product-tabs-wrapper mt-5">
+            <!--<div class="product-tabs-wrapper mt-5">-->
 
-                <!-- Tabs -->
-                <ul class="nav nav-tabs justify-content-center product-tabs" id="productTabs" role="tablist">
+            <!-- Tabs -->
+            <!--    <ul class="nav nav-tabs justify-content-center product-tabs" id="productTabs" role="tablist">-->
 
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active"
-                            id="desc-tab"
-                            data-bs-toggle="tab"
-                            data-bs-target="#desc"
-                            type="button"
-                            role="tab">
-                            Description
-                        </button>
-                    </li>
+            <!--        <li class="nav-item" role="presentation">-->
+            <!--            <button class="nav-link active"-->
+            <!--                id="desc-tab"-->
+            <!--                data-bs-toggle="tab"-->
+            <!--                data-bs-target="#desc"-->
+            <!--                type="button"-->
+            <!--                role="tab">-->
+            <!--                Description-->
+            <!--            </button>-->
+            <!--        </li>-->
 
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link"
-                            id="info-tab"
-                            data-bs-toggle="tab"
-                            data-bs-target="#info"
-                            type="button"
-                            role="tab">
-                            Additional information
-                        </button>
-                    </li>
+            <!--        <li class="nav-item" role="presentation">-->
+            <!--            <button class="nav-link"-->
+            <!--                id="info-tab"-->
+            <!--                data-bs-toggle="tab"-->
+            <!--                data-bs-target="#info"-->
+            <!--                type="button"-->
+            <!--                role="tab">-->
+            <!--                Additional information-->
+            <!--            </button>-->
+            <!--        </li>-->
 
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link"
-                            id="reviews-tab"
-                            data-bs-toggle="tab"
-                            data-bs-target="#reviews"
-                            type="button"
-                            role="tab">
-                            Reviews (0)
-                        </button>
-                    </li>
+            <!--        <li class="nav-item" role="presentation">-->
+            <!--            <button class="nav-link"-->
+            <!--                id="reviews-tab"-->
+            <!--                data-bs-toggle="tab"-->
+            <!--                data-bs-target="#reviews"-->
+            <!--                type="button"-->
+            <!--                role="tab">-->
+            <!--                Reviews (0)-->
+            <!--            </button>-->
+            <!--        </li>-->
 
-                </ul>
+            <!--    </ul>-->
 
-                <!-- Tab content -->
-                <div class="tab-content mt-4">
+            <!-- Tab content -->
+            <!--    <div class="tab-content mt-4">-->
 
-                    <!-- Description -->
-                    <div class="tab-pane fade show active text-center"
-                        id="desc"
-                        role="tabpanel"
-                        aria-labelledby="desc-tab">
+            <!-- Description -->
+            <!--        <div class="tab-pane fade show active text-center"-->
+            <!--            id="desc"-->
+            <!--            role="tabpanel"-->
+            <!--            aria-labelledby="desc-tab">-->
 
-                        <p>
-                            Sit purto verear iracundia ea, cu mea expetenda gubergren.
-                            Te quis partiendo vix. Vivendo voluptatum cu vis, unum minim pertinacia vis ea.
-                        </p>
-                    </div>
+            <!--            <p>-->
+            <!--                Sit purto verear iracundia ea, cu mea expetenda gubergren.-->
+            <!--                Te quis partiendo vix. Vivendo voluptatum cu vis, unum minim pertinacia vis ea.-->
+            <!--            </p>-->
+            <!--        </div>-->
 
-                    <!-- Additional Info -->
-                    <div class="tab-pane fade"
-                        id="info"
-                        role="tabpanel"
-                        aria-labelledby="info-tab">
+            <!-- Additional Info -->
+            <!--        <div class="tab-pane fade"-->
+            <!--            id="info"-->
+            <!--            role="tabpanel"-->
+            <!--            aria-labelledby="info-tab">-->
 
-                        <table class="product-info-table ">
-                            <tr>
-                                <th>Weight</th>
-                                <td>5 kg</td>
-                            </tr>
-                            <tr>
-                                <th>Dimensions</th>
-                                <td>5 × 10 × 15 cm</td>
-                            </tr>
-                        </table>
-                    </div>
+            <!--            <table class="product-info-table ">-->
+            <!--                <tr>-->
+            <!--                    <th>Weight</th>-->
+            <!--                    <td>5 kg</td>-->
+            <!--                </tr>-->
+            <!--                <tr>-->
+            <!--                    <th>Dimensions</th>-->
+            <!--                    <td>5 × 10 × 15 cm</td>-->
+            <!--                </tr>-->
+            <!--            </table>-->
+            <!--        </div>-->
 
-                    <!-- Reviews -->
-                    <div class="tab-pane fade"
-                        id="reviews"
-                        role="tabpanel"
-                        aria-labelledby="reviews-tab">
+            <!-- Reviews -->
+            <!--        <div class="tab-pane fade"-->
+            <!--            id="reviews"-->
+            <!--            role="tabpanel"-->
+            <!--            aria-labelledby="reviews-tab">-->
 
-                        <div class="review-box">
+            <!--            <div class="review-box">-->
 
-                            <h5 class="mb-1">Reviews</h5>
-                            <p class="text-muted mb-4">There are no reviews yet.</p>
+            <!--                <h5 class="mb-1">Reviews</h5>-->
+            <!--                <p class="text-muted mb-4">There are no reviews yet.</p>-->
 
-                            <h5 class="mb-3">Be the first to review “Seal”</h5>
+            <!--                <h5 class="mb-3">Be the first to review “Seal”</h5>-->
 
-                            <p class="text-muted small">
-                                Your email address will not be published. Required fields are marked *
-                            </p>
+            <!--                <p class="text-muted small">-->
+            <!--                    Your email address will not be published. Required fields are marked *-->
+            <!--                </p>-->
 
-                            <label class="fw-semibold mb-1">Your rating *</label>
-                            <div class="rating-stars mb-3">★★★★★</div>
+            <!--                <label class="fw-semibold mb-1">Your rating *</label>-->
+            <!--                <div class="rating-stars mb-3">★★★★★</div>-->
 
-                            <label class="fw-semibold mb-1">Your review *</label>
-                            <textarea class="form-control review-input mb-4" rows="6"></textarea>
+            <!--                <label class="fw-semibold mb-1">Your review *</label>-->
+            <!--                <textarea class="form-control review-input mb-4" rows="6"></textarea>-->
 
-                            <label class="fw-semibold mb-1">Name *</label>
-                            <input type="text" class="form-control review-line-input mb-4">
+            <!--                <label class="fw-semibold mb-1">Name *</label>-->
+            <!--                <input type="text" class="form-control review-line-input mb-4">-->
 
-                            <label class="fw-semibold mb-1">Email *</label>
-                            <input type="email" class="form-control review-line-input mb-4">
+            <!--                <label class="fw-semibold mb-1">Email *</label>-->
+            <!--                <input type="email" class="form-control review-line-input mb-4">-->
 
-                            <div class="form-check mb-3">
-                                <input class="form-check-input mt-3" type="checkbox" id="saveInfo">
-                                <label class="form-check-label small pt-1" for="saveInfo">
-                                    Save my name, email, and website in this browser for the next time I comment.
-                                </label>
-                            </div>
+            <!--                <div class="form-check mb-3">-->
+            <!--                    <input class="form-check-input mt-3" type="checkbox" id="saveInfo">-->
+            <!--                    <label class="form-check-label small pt-1" for="saveInfo">-->
+            <!--                        Save my name, email, and website in this browser for the next time I comment.-->
+            <!--                    </label>-->
+            <!--                </div>-->
 
-                            <button class="btn btn-submit-review px-4">Submit</button>
-                        </div>
+            <!--                <button class="btn btn-submit-review px-4">Submit</button>-->
+            <!--            </div>-->
 
-                    </div>
+            <!--        </div>-->
 
-                </div>
-            </div>
-
+            <!--    </div>-->
+            <!--</div>-->
+            <div class="divide-line"></div>
 
 
             <!-- RELATED PRODUCTS -->
