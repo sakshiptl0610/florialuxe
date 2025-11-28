@@ -33,8 +33,8 @@
 
       <div class="col-lg-2 text-start">
         <h2 class="cart-title">Price</h2>
-        <div class="price-item">$50</div>
-        <div class="price-item mt-5">$30</div>
+        <div class="price-item"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">50</div>
+        <div class="price-item mt-5"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">30</div>
       </div>
 
       <div class="col-lg-3">
@@ -82,8 +82,8 @@
 
       <div class="col-lg-1">
         <h2 class="cart-title">Subtotal</h2>
-        <div class="price-item">$50</div>
-        <div class="price-item mt-5">$90</div>
+        <div class="price-item"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">50</div>
+        <div class="price-item mt-5"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">90</div>
       </div>
     </div>
 
@@ -92,7 +92,7 @@
 
 
       <div class="col-lg-3 d-flex align-items-end">
-        <a href="<?php echo base_url('cart'); ?>">
+        <a href="<?php echo base_url('products'); ?>">
           <button class="cart-btn ">Update cart</button></a>
       </div>
     </div>
@@ -107,7 +107,7 @@
 
         <tr class="totals-row">
           <th>Subtotal</th>
-          <td>$140</td>
+          <td><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">140</td>
         </tr>
 
         <tr>
@@ -139,7 +139,7 @@
 
         <tr class="totals-row">
           <th>Total</th>
-          <td>$140</td>
+          <td><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">140</td>
         </tr>
 
       </table>

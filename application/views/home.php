@@ -46,10 +46,11 @@
         </div>
 
         <ul class="menu-links font-nexalight">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="<?php echo base_url('home'); ?>">Home</a></li>
+            <li><a href="<?= base_url() ?>#aboutsection">About</a></li>
+            <li><a href="<?php echo base_url('products'); ?>">Collection</a></li>
+            <li><a href="<?php echo base_url('#'); ?>">Special Occasion</a></li>
+            <li><a href="<?php echo base_url('#'); ?>">Contact</a></li>
         </ul>
 
         <div class="menu-icons">
@@ -85,7 +86,7 @@
 
 <div class="sub-line1"></div>
 
-<section class="floria-hero-section">
+<section class="floria-hero-section" id="aboutsection">
     <div class="floating-line">
         <svg class="" xmlns="http://www.w3.org/2000/svg" width="12.875" height="180" viewBox="0 0 12.875 180">
             <line fill="none" stroke="#338E8B" stroke-miterlimit="10"
@@ -215,59 +216,149 @@
         <div class="row">
 
             <div class="col-lg-4 col-md-6">
-                <div class="cat-card">
+                <div class="product-box  product-box-h">
                     <a href="<?php echo base_url('products'); ?>">
-                        <img src="assets/Images/FLORIA-7.jpg" alt="Roses">
+                        <img src="<?= base_url() ?>assets/Images/FLORIA-7.jpg">
+
+                        <div class="hover-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                            </svg>
+                            <h3 class="font-canegroni">Roses</h3>
+
+                        </div>
+
+                        <div class="price-row mb-5">
+                            <span class="price">Roses</span>
+                            <span class="add-btn">View Product</span>
+                        </div>
                     </a>
-                    <span class="badge-tag sale">Sale</span>
                 </div>
-                <h4 class="cat-title font-nexalight">Roses</h4>
             </div>
 
+
+            <!-- card 2 -->
             <div class="col-lg-4 col-md-6">
-                <div class="cat-card">
+                <div class="product-box  product-box-h">
                     <a href="<?php echo base_url('products'); ?>">
-                        <img src="assets/Images/FLORIA-8.jpg" alt="Orchids">
-                    </a>
-                    <span class="badge-tag new">New</span>
-                </div>
-                <h4 class="cat-title font-nexalight">Orchids</h4>
-            </div>
+                        <img src="<?= base_url() ?>assets/Images/FLORIA-8.jpg">
 
+                        <div class="hover-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                            </svg>
+                            <h3 class="font-canegroni">Orchids</h3>
+
+                        </div>
+
+                        <div class="price-row mb-5">
+                            <span class="price">Orchids</span>
+                            <span class="add-btn">View Product</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- card-3 -->
             <div class="col-lg-4 col-md-6">
-                <div class="cat-card">
+                <div class="product-box  product-box-h">
                     <a href="<?php echo base_url('products'); ?>">
-                        <img src="assets/Images/FLORIA-9.jpg" alt="Peonies">
+                        <img src="<?= base_url() ?>assets/Images/FLORIA-9.jpg">
+
+                        <div class="hover-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                            </svg>
+                            <h3 class="font-canegroni">Peonies</h3>
+
+                        </div>
+
+                        <div class="price-row mb-5">
+                            <span class="price">Peonies</span>
+                            <span class="add-btn">View Product</span>
+                        </div>
                     </a>
                 </div>
-                <h4 class="cat-title font-nexalight">Peonies</h4>
             </div>
-
+            <!-- card-4 -->
             <div class="col-lg-4 col-md-6">
-                <div class="cat-card">
+                <div class="product-box  product-box-h">
                     <a href="<?php echo base_url('products'); ?>">
-                        <img src="assets/Images/FLORIA-10.jpg" alt="Calla Lilies">
+                        <img src="<?= base_url() ?>assets/Images/FLORIA-10.jpg">
+
+                        <div class="hover-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                            </svg>
+                            <h3 class="font-canegroni">Anthurium</h3>
+
+                        </div>
+
+                        <div class="price-row mb-5">
+                            <span class="price">Anthurium</span>
+                            <span class="add-btn">View Product</span>
+                        </div>
                     </a>
                 </div>
-                <h4 class="cat-title font-nexalight">Calla Lilies</h4>
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <div class="cat-card">
-                    <a href="#">
-                        <img src="assets/Images/FLORIA-11.jpg" alt="Hydrangeas">
+                <div class="product-box  product-box-h">
+                    <a href="<?php echo base_url('products'); ?>">
+                        <img src="<?= base_url() ?>assets/Images/FLORIA-11.jpg">
+
+                        <div class="hover-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                            </svg>
+                            <h3 class="font-canegroni">Bird of Paradish</h3>
+
+                        </div>
+
+                        <div class="price-row mb-5">
+                            <span class="price">Bird of Paradish</span>
+                            <span class="add-btn">View Product</span>
+                        </div>
                     </a>
                 </div>
-                <h4 class="cat-title font-nexalight">Hydrangeas</h4>
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <div class="cat-card">
-                    <a href="#">
-                        <img src="assets/Images/FLORIA-12.jpg" alt="Tulip">
+                <div class="product-box  product-box-h">
+                    <a href="<?php echo base_url('products'); ?>">
+                        <img src="<?= base_url() ?>assets/Images/FLORIA-12.jpg">
+
+                        <div class="hover-card">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                            </svg>
+                            <h3 class="font-canegroni">Leuco spermum</h3>
+
+                        </div>
+
+                        <div class="price-row mb-5">
+                            <span class="price">Leuco spermum</span>
+                            <span class="add-btn">View Product</span>
+                        </div>
                     </a>
                 </div>
-                <h4 class="cat-title font-nexalight">Tulip</h4>
             </div>
 
         </div>
@@ -301,27 +392,28 @@
 
     <div class="title-wrapper">
         <h2 class="emotion-title font-canegroni">
-            BLOOM WITH <br> EVERY EMOTION  <img class="mb-3" src="<?= base_url() ?>assets/icons/FLORIA-CLICK-ICON-1.svg" alt="" width="35px">
+            BLOOM WITH <br> EVERY EMOTION <img class="mb-3" src="<?= base_url() ?>assets/icons/FLORIA-CLICK-ICON-1.svg" alt="" width="35px">
         </h2>
 
     </div>
 
     <div class="bottom-bg">
-        <div class="sub-line4"><span>
-                Fraser, specializes
 
-            </span>
-            <svg class="sub-line-svg" xmlns="http://www.w3.org/2000/svg" width="12.875" height="99.375" viewBox="0 0 12.875 99.375">
-                <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
-                <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901 c1.594-0.412,2.357-1.25,3.348-2.558 c1.48-1.951,2.17-3.886,2.419-6.336 c0.142-1.393-0.162-2.887,0.118-4.235 c-0.28,2.665-3.648,4.36-5.069,6.397 c-1.135,1.625-1.124,2.954-1.649,4.763 c-0.546,1.879-1.48,1.798-2.831,2.889 C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
-            </svg>
-        </div>
         <div class="container py-5">
+            <div class="sub-line4"><span>
+                    Fraser, specializes
+
+                </span>
+                <svg class="sub-line-svg" xmlns="http://www.w3.org/2000/svg" width="12.875" height="99.375" viewBox="0 0 12.875 99.375">
+                    <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                    <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901 c1.594-0.412,2.357-1.25,3.348-2.558 c1.48-1.951,2.17-3.886,2.419-6.336 c0.142-1.393-0.162-2.887,0.118-4.235 c-0.28,2.665-3.648,4.36-5.069,6.397 c-1.135,1.625-1.124,2.954-1.649,4.763 c-0.546,1.879-1.48,1.798-2.831,2.889 C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                </svg>
+            </div>
             <div class="row gy-4 justify-content-center">
 
                 <div class="col-lg-4 col-md-6">
                     <div class="emotion-card">
-                        <a href="#">
+                        <a href="<?= base_url('valentinesday'); ?>">
                             <img src="assets/Images/FLORIA-15.jpg" alt="">
                         </a>
                         <div class="label-box font-nexalight">Valentine's Day</div>
@@ -330,7 +422,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="emotion-card">
-                        <a href="#">
+                        <a href="<?= base_url('mothersday'); ?>">
                             <img src="assets/Images/FLORIA-16.jpg" alt="">
                         </a>
                         <div class="label-box font-nexalight">Mother's Day</div>
@@ -339,7 +431,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="emotion-card">
-                        <a href="#">
+                        <a href="<?= base_url('birthday'); ?>">
                             <img src="assets/Images/FLORIA-17.jpg" alt="">
                         </a>
                         <div class="label-box font-nexalight">Birth Day</div>
@@ -351,7 +443,8 @@
                         <a href="#">
                             <img src="assets/Images/FLORIA-18.jpg" alt="">
                         </a>
-                        <div class="label-box font-nexalight">Valentine's Day</div>
+                        <div class="label-box font-nexalight">Anniversary
+                        </div>
                     </div>
                 </div>
 
@@ -360,7 +453,7 @@
                         <a href="#">
                             <img src="assets/Images/FLORIA-19.jpg" alt="">
                         </a>
-                        <div class="label-box font-nexalight">Mother's Day</div>
+                        <div class="label-box font-nexalight">Weddings</div>
                     </div>
                 </div>
 
@@ -369,7 +462,7 @@
                         <a href="#">
                             <img src="assets/Images/FLORIA-20.jpg" alt="">
                         </a>
-                        <div class="label-box font-nexalight">Birth Day</div>
+                        <div class="label-box font-nexalight">New Born</div>
                     </div>
                 </div>
 

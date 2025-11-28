@@ -35,7 +35,7 @@
                     <div class=" product-content-box">
 
                         <p class="font-canegroni text-color title">Seal</p>
-                        <h5 class="text-color mt-3 ">$25</h5>
+                        <h5 class="text-color mt-3 "><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">25</h5>
 
                         <p class="text-color font-nexalight tagline mt-3 ">
                             Lorem ipsum dolor sit amet, an vix dictas deseruisse reformidans. An vel corpora facilisi. Vitae mollis euripidis ex cum, sed in primis commodo reformidans.
@@ -67,10 +67,10 @@
 
                         <!-- META -->
                         <div class="mt-3 text-color details">
-                            <p><span class="heading-td">SKU:</span> 10</p>
+
                             <p><span class="heading-td">Category:</span> Creative</p>
                             <p>
-                                <span class="heading-td"> Tags:</span> lush, seasonal, textured
+                                <span class="heading-td"> Tags:</span> Fresh
                             </p>
                         </div>
 
@@ -208,7 +208,7 @@
                     <div class="card border-0">
                         <img src="<?= base_url() ?>assets/Images/FLORIA-11.jpg">
                         <div class="price-row">
-                            <span class="price">$145</span>
+                            <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">145</span>
                             <span class="add-btn">Add to cart</span>
                         </div>
                     </div>
@@ -218,7 +218,7 @@
                     <div class="card border-0">
                         <img src="<?= base_url() ?>assets/Images/FLORIA-9.jpg">
                         <div class="price-row">
-                            <span class="price">$145</span>
+                            <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">145</span>
                             <span class="add-btn">Add to cart</span>
                         </div>
                     </div>
@@ -227,7 +227,7 @@
                     <div class="card border-0">
                         <img src="<?= base_url() ?>assets/Images/FLORIA-8.jpg">
                         <div class="price-row">
-                            <span class="price">$145</span>
+                            <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">145</span>
                             <span class="add-btn">Add to cart</span>
                         </div>
                     </div>
@@ -236,7 +236,7 @@
                     <div class="card border-0">
                         <img src="https://roisin.qodeinteractive.com/wp-content/uploads/2019/12/main-home-shop-img-4-600x600.jpg">
                         <div class="price-row">
-                            <span class="price">$145</span>
+                            <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">145</span>
                             <span class="add-btn">Add to cart</span>
                         </div>
                     </div>

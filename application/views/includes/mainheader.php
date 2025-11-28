@@ -6,6 +6,14 @@
     </div>
 
     <div class="header-container2">
+      <a class="shop-cart me-4"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.648px" height="24.083px" viewBox="0 0 17.648 25.083" enable-background="new 0 0 17.648 25.083" xml:space="preserve" stroke="#1b745e">
+          <rect x="1.294" y="8.382" fill="none" stroke-miterlimit="10" width="15" height="16" stroke="#1b745e"></rect>
+          <path fill="none" stroke-miterlimit="10" d="M9.741-9.65"></path>
+          <path fill="none" stroke-miterlimit="10" d="M8.793,11.224"></path>
+          <path fill="none" stroke-miterlimit="10" d="M5.294,11.243V4.864c0,0-0.12-3.59,3.506-3.59 c3.541,0,3.493,3.56,3.493,3.56v6.44"></path>
+        </svg>
+        <a class="count-cart">0</a>
+      </a>
       <div class="hamburger-simple" id="hamburgerSecond">
         <span></span>
         <span></span>
@@ -41,10 +49,11 @@
     </div>
 
     <ul class="menu-links font-nexalight">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="<?php echo base_url('home'); ?>">Home</a></li>
+      <li><a href="<?= base_url() ?>#aboutsection">About</a></li>
+      <li><a href="<?php echo base_url('products'); ?>">Collection</a></li>
+      <li><a href="<?php echo base_url('#'); ?>">Special Occasion</a></li>
+      <li><a href="<?php echo base_url('#'); ?>">Contact</a></li>
     </ul>
 
     <div class="menu-icons">

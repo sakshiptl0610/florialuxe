@@ -399,6 +399,30 @@
   });
 </script>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+
+    // saare size buttons
+    const allSizes = document.querySelectorAll(".size-btn");
+
+    allSizes.forEach(size => {
+      size.addEventListener("click", function() {
+
+        // parent ke andar active remove
+        let parent = this.closest(".size-options");
+        parent.querySelectorAll(".size-btn").forEach(btn => btn.classList.remove("active"));
+
+        // selected add
+        this.classList.add("active");
+
+        // add to cart button show karo
+        let addBtn = this.closest(".size-hover").querySelector(".add-btn2");
+        addBtn.classList.add("show");
+      });
+    });
+
+  });
+</script>
 
 
 

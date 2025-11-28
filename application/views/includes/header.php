@@ -44,10 +44,11 @@ $isHome = isset($is_home) ? $is_home : false;
         </div>
 
         <ul class="menu-links font-nexalight">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="<?php echo base_url('home'); ?>">Home</a></li>
+            <li><a href="<?= base_url() ?>#aboutsection">About</a></li>
+            <li><a href="<?php echo base_url('products'); ?>">Collection</a></li>
+            <li><a href="<?php echo base_url('#'); ?>">Special Occasion</a></li>
+            <li><a href="<?php echo base_url('#'); ?>">Contact</a></li>
         </ul>
 
         <div class="menu-icons">
