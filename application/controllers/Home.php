@@ -94,4 +94,35 @@ class Home extends CI_Controller
 
         $this->load->view('birthday');
     }
+
+    public function ordersuccess()
+    {
+        $data['title'] = 'ordersuccess';
+
+        $this->load->view('ordersuccess');
+    }
+    public function annivarsary()
+    {
+        $data['title'] = 'annivarsary';
+
+        $this->load->view('annivarsary');
+    }
+    public function wedding()
+    {
+        $data['title'] = 'wedding';
+
+        $this->load->view('wedding');
+    }
+    public function newborn()
+    {
+        $data['title'] = 'newborn';
+
+        $this->load->view('newborn');
+    }
+    public function contactus()
+    {
+        $data['title'] = 'contactus';
+
+        $this->load->view('contactus');
+    }
 }

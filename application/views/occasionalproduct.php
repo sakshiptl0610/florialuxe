@@ -11,299 +11,67 @@
 </div>
 
 
-<!-- ⭐ FILTER AREA – MOVED OUTSIDE MAIN-CONTAINER -->
-<div class="filter-area text-center pt-5 pb-4 main-container">
-  <div class="filter-wrapper">
-
-    <ul class="filter-bar font-oswaldextralight">
-      <li class="active" data-filter="all">All</li>
-      <li data-filter="fresh ">Fresh</li>
-      <li data-filter="seasonal">Seasonal</li>
-
-    </ul>
-
-    <div class="dropdown-btn">+</div>
-
-    <div class="extra-dropdown font-oswaldextralight">
-      <p data-filter="winter">Winter</p>
-      <p data-filter="autumn">Autumn</p>
-      <p data-filter="bouquet">Bouquet</p>
-      <p data-filter="luxury">Luxury</p>
-      <p data-filter="romantic">Romantic</p>
-    </div>
-
-  </div>
-</div>
-<!-- ⭐ FILTER AREA END -->
-
-
-<!-- ⭐ PRODUCT GRID NOW SEPARATE -->
 <div>
   <div class="row g-4">
-    <!-- tumhara product code same rehega -->
-
-
-
-
 
     <!-- PRODUCT GRID -->
-    <div class="main-container pb-5">
-      <div class="row g-4">
+    <div class="main-container pb-5 mt-5">
+      <div class="row gy-4 justify-content-center">
 
-        <!-- 9 PRODUCT BOXES -->
-
-        <!-- 1 -->
-        <div class="col-md-4 product fresh">
-          <div class="product-box">
-            <a href="<?php echo base_url('roses'); ?>">
-              <img src="<?= base_url() ?>assets/Images/FLORIA-7.jpg">
-
-              <div class="hover-card">
-                <div class="size-hover">
-                  <h4 class="font-canegroni choose-title">Choose Size
-                    <span class="choose-title-line">
-                      <svg class="sub-line-svg" xmlns="http://www.w3.org/2000/svg" width="12.875" height="99.375" viewBox="0 0 12.875 99.375">
-                        <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="60.431"></line>
-                        <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901
-                           c1.594-0.412,2.357-1.25,3.348-2.558
-                           c1.48-1.951,2.17-3.886,2.419-6.336
-                           c0.142-1.393-0.162-2.887,0.118-4.235
-                           c-0.28,2.665-3.648,4.36-5.069,6.397
-                           c-1.135,1.625-1.124,2.954-1.649,4.763
-                           c-0.546,1.879-1.48,1.798-2.831,2.889
-                           C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
-                      </svg>
-                    </span>
-                  </h4>
-
-                  <div class="size-options">
-                    <span class="size-btn" data-size="Small">Small</span>
-                    <span class="size-btn" data-size="Medium">Medium</span>
-                    <span class="size-btn" data-size="Large">Large</span>
-                  </div>
-
-
-                </div>
-
-              </div>
-
-              <div class="price-row">
-                <span class="price"> <img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">145</span>
-                <span class="add-btn">Add to cart</span>
-              </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="emotion-card">
+            <a href="<?= base_url('valentinesday'); ?>">
+              <img src="assets/Images/FLORIA-15.jpg" alt="">
             </a>
+            <div class="label-box text-center font-nexalight">Valentine's Day</div>
           </div>
         </div>
 
-        <!-- 2 -->
-        <div class="col-md-4 product seasonal">
-          <div class="product-box">
-            <a href="<?php echo base_url('orchids'); ?>">
-              <img src="<?= base_url() ?>assets/Images/FLORIA-8.jpg">
-              <div class="hover-card">
-                <div class="size-hover">
-                  <h4 class="font-canegroni choose-title">Choose Size
-                    <span class="choose-title-line">
-                      <svg class="sub-line-svg" xmlns="http://www.w3.org/2000/svg" width="12.875" height="99.375" viewBox="0 0 12.875 99.375">
-                        <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="60.431"></line>
-                        <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901
-                           c1.594-0.412,2.357-1.25,3.348-2.558
-                           c1.48-1.951,2.17-3.886,2.419-6.336
-                           c0.142-1.393-0.162-2.887,0.118-4.235
-                           c-0.28,2.665-3.648,4.36-5.069,6.397
-                           c-1.135,1.625-1.124,2.954-1.649,4.763
-                           c-0.546,1.879-1.48,1.798-2.831,2.889
-                           C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
-                      </svg>
-                    </span>
-                  </h4>
-
-                  <div class="size-options">
-                    <span class="size-btn" data-size="Small">Small</span>
-                    <span class="size-btn" data-size="Medium">Medium</span>
-                    <span class="size-btn" data-size="Large">Large</span>
-                  </div>
-
-
-                </div>
-
-              </div>
-              <div class="price-row">
-                <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">125</span>
-                <span class="add-btn">Add to cart</span>
-              </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="emotion-card">
+            <a href="<?= base_url('mothersday'); ?>">
+              <img src="assets/Images/FLORIA-16.jpg" alt="">
             </a>
+            <div class="label-box text-center font-nexalight">Mother's Day</div>
           </div>
         </div>
 
-        <!-- 3 -->
-        <div class="col-md-4 product seasonal">
-          <div class="product-box">
-            <a href="<?php echo base_url('peonies'); ?>">
-              <img src="<?= base_url() ?>assets/Images/FLORIA-9.jpg">
-              <div class="hover-card">
-                <div class="size-hover">
-                  <h4 class="font-canegroni choose-title">Choose Size
-                    <span class="choose-title-line">
-                      <svg class="sub-line-svg" xmlns="http://www.w3.org/2000/svg" width="12.875" height="99.375" viewBox="0 0 12.875 99.375">
-                        <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="60.431"></line>
-                        <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901
-                           c1.594-0.412,2.357-1.25,3.348-2.558
-                           c1.48-1.951,2.17-3.886,2.419-6.336
-                           c0.142-1.393-0.162-2.887,0.118-4.235
-                           c-0.28,2.665-3.648,4.36-5.069,6.397
-                           c-1.135,1.625-1.124,2.954-1.649,4.763
-                           c-0.546,1.879-1.48,1.798-2.831,2.889
-                           C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
-                      </svg>
-                    </span>
-                  </h4>
-
-                  <div class="size-options">
-                    <span class="size-btn" data-size="Small">Small</span>
-                    <span class="size-btn" data-size="Medium">Medium</span>
-                    <span class="size-btn" data-size="Large">Large</span>
-                  </div>
-
-
-                </div>
-
-              </div>
-              <div class="price-row">
-                <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">160</span>
-                <span class="add-btn">Add to cart</span>
-              </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="emotion-card">
+            <a href="<?= base_url('birthday'); ?>">
+              <img src="assets/Images/FLORIA-17.jpg" alt="">
             </a>
+            <div class="label-box text-center font-nexalight">Birth Day</div>
           </div>
         </div>
 
-        <!-- 4 -->
-        <div class="col-md-4 product fresh">
-          <div class="product-box">
-            <a href="<?php echo base_url('anthurium'); ?>">
-              <img src="<?= base_url() ?>assets/Images/FLORIA-10.jpg">
-              <div class="hover-card">
-                <div class="size-hover">
-                  <h4 class="font-canegroni choose-title">Choose Size
-                    <span class="choose-title-line">
-                      <svg class="sub-line-svg" xmlns="http://www.w3.org/2000/svg" width="12.875" height="99.375" viewBox="0 0 12.875 99.375">
-                        <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="60.431"></line>
-                        <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901
-                           c1.594-0.412,2.357-1.25,3.348-2.558
-                           c1.48-1.951,2.17-3.886,2.419-6.336
-                           c0.142-1.393-0.162-2.887,0.118-4.235
-                           c-0.28,2.665-3.648,4.36-5.069,6.397
-                           c-1.135,1.625-1.124,2.954-1.649,4.763
-                           c-0.546,1.879-1.48,1.798-2.831,2.889
-                           C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
-                      </svg>
-                    </span>
-                  </h4>
-
-                  <div class="size-options">
-                    <span class="size-btn" data-size="Small">Small</span>
-                    <span class="size-btn" data-size="Medium">Medium</span>
-                    <span class="size-btn" data-size="Large">Large</span>
-                  </div>
-
-
-                </div>
-
-              </div>
-
-              <div class="price-row">
-                <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">180</span>
-                <span class="add-btn">Add to cart</span>
-              </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="emotion-card">
+            <a href="<?= base_url('annivarsary'); ?>">
+              <img src="assets/Images/FLORIA-18.jpg" alt="">
             </a>
+            <div class="label-box text-center font-nexalight">Anniversary
+            </div>
           </div>
         </div>
 
-        <!-- 5 -->
-        <div class="col-md-4 product fresh">
-          <div class="product-box">
-            <a href="<?php echo base_url('paradish'); ?>">
-              <img src="<?= base_url() ?>assets/Images/FLORIA-11.jpg">
-              <div class="hover-card">
-                <div class="size-hover">
-                  <h4 class="font-canegroni choose-title">Choose Size
-                    <span class="choose-title-line">
-                      <svg class="sub-line-svg" xmlns="http://www.w3.org/2000/svg" width="12.875" height="99.375" viewBox="0 0 12.875 99.375">
-                        <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="60.431"></line>
-                        <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901
-                           c1.594-0.412,2.357-1.25,3.348-2.558
-                           c1.48-1.951,2.17-3.886,2.419-6.336
-                           c0.142-1.393-0.162-2.887,0.118-4.235
-                           c-0.28,2.665-3.648,4.36-5.069,6.397
-                           c-1.135,1.625-1.124,2.954-1.649,4.763
-                           c-0.546,1.879-1.48,1.798-2.831,2.889
-                           C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
-                      </svg>
-                    </span>
-                  </h4>
-
-                  <div class="size-options">
-                    <span class="size-btn" data-size="Small">Small</span>
-                    <span class="size-btn" data-size="Medium">Medium</span>
-                    <span class="size-btn" data-size="Large">Large</span>
-                  </div>
-
-
-                </div>
-
-              </div>
-
-              <div class="price-row">
-                <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">100</span>
-                <span class="add-btn">Add to cart</span>
-              </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="emotion-card">
+            <a href="<?= base_url('wedding'); ?>">
+              <img src="assets/Images/FLORIA-19.jpg" alt="">
             </a>
+            <div class="label-box text-center font-nexalight">Weddings</div>
           </div>
         </div>
 
-        <!-- 6 -->
-        <div class="col-md-4 product fresh">
-          <div class="product-box">
-            <a href="<?php echo base_url('leucospermum'); ?>">
-              <img src="<?= base_url() ?>assets/Images/FLORIA-12.jpg">
-              <div class="hover-card">
-                <div class="size-hover">
-                  <h4 class="font-canegroni choose-title">Choose Size
-                    <span class="choose-title-line">
-                      <svg class="sub-line-svg" xmlns="http://www.w3.org/2000/svg" width="12.875" height="99.375" viewBox="0 0 12.875 99.375">
-                        <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="60.431"></line>
-                        <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901
-                           c1.594-0.412,2.357-1.25,3.348-2.558
-                           c1.48-1.951,2.17-3.886,2.419-6.336
-                           c0.142-1.393-0.162-2.887,0.118-4.235
-                           c-0.28,2.665-3.648,4.36-5.069,6.397
-                           c-1.135,1.625-1.124,2.954-1.649,4.763
-                           c-0.546,1.879-1.48,1.798-2.831,2.889
-                           C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
-                      </svg>
-                    </span>
-                  </h4>
-
-                  <div class="size-options">
-                    <span class="size-btn" data-size="Small">Small</span>
-                    <span class="size-btn" data-size="Medium">Medium</span>
-                    <span class="size-btn" data-size="Large">Large</span>
-                  </div>
-
-
-                </div>
-
-              </div>
-
-              <div class="price-row">
-                <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">95</span>
-                <span class="add-btn">Add to cart</span>
-              </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="emotion-card">
+            <a href="<?= base_url('newborn'); ?>">
+              <img src="assets/Images/FLORIA-20.jpg" alt="">
             </a>
+            <div class="label-box text-center font-nexalight">New Born</div>
           </div>
         </div>
-
-
 
       </div>
     </div>
@@ -344,7 +112,7 @@
                 BLOOM
               </h2>
 
-              <p class="font-nexalight  sub font-nexalight">
+              <p class="font-nexalight  sub">
                 The Seasons bloom with their own magic <br>
                 Let their colours and moods guide your choice of flowers
               </p>

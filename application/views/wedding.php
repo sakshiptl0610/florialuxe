@@ -11,17 +11,15 @@
 </div>
 
 
-<!-- ⭐ FILTER AREA – MOVED OUTSIDE MAIN-CONTAINER -->
 <div class="filter-area text-center pt-5 pb-4 main-container">
   <div class="filter-wrapper">
-
     <ul class="filter-bar font-oswaldextralight">
 
       <a href="<?php echo base_url('valentinesday'); ?>">
         <li>Valentinesday</li>
       </a>
       <a href="<?php echo base_url('mothersday'); ?>">
-        <li class="active">Mothersday</li>
+        <li>Mothersday</li>
       </a>
       <a href="<?php echo base_url('birthday'); ?>">
         <li>Birthday</li>
@@ -30,7 +28,7 @@
         <li>Anniversary</li>
       </a>
       <a href="<?php echo base_url('wedding'); ?>">
-        <li>Weddings</li>
+        <li class="active">Weddings</li>
       </a>
       <a href="<?php echo base_url('newborn'); ?>">
         <li>New Born</li>
@@ -71,7 +69,7 @@
         <div class="col-md-4 product fresh">
           <div class="product-box">
             <a href="<?php echo base_url('roses'); ?>">
-              <img src="<?= base_url() ?>assets/Images/FLORIA-16.jpg">
+              <img src="<?= base_url() ?>assets/Images/FLORIA-19.jpg">
 
               <div class="hover-card">
                 <div class="size-hover">
@@ -114,7 +112,7 @@
         <div class="col-md-4 product seasonal">
           <div class="product-box">
             <a href="<?php echo base_url('orchids'); ?>">
-              <img src="<?= base_url() ?>assets/Images/m-2.png">
+              <img src="<?= base_url() ?>assets/Images/W-2.png">
               <div class="hover-card">
                 <div class="size-hover">
                   <h4 class="font-canegroni choose-title">Choose Size
@@ -155,7 +153,7 @@
         <div class="col-md-4 product seasonal">
           <div class="product-box">
             <a href="<?php echo base_url('peonies'); ?>">
-              <img src="<?= base_url() ?>assets/Images/m-3.png">
+              <img src="<?= base_url() ?>assets/Images/W-3.png">
               <div class="hover-card">
                 <div class="size-hover">
                   <h4 class="font-canegroni choose-title">Choose Size

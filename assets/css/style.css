@@ -37,6 +37,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "adelia";
+  src: url("../Fonts/adelia.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PlayfairDisplaySC";
+  src: url("../Fonts/PlayfairDisplaySC-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .font-carme {
   font-family: "Carme", sans-serif;
 }
@@ -322,19 +336,7 @@ html {
 
 /* -------------------- FONTS YOU USED -------------------- */
 
-@font-face {
-  font-family: "adelia";
-  src: url("/assets/Fonts/adelia.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 
-@font-face {
-  font-family: "PlayfairDisplaySC";
-  src: url("/assets/Fonts/PlayfairDisplaySC-Regular.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
 
 /* -------------------- BASIC RESET -------------------- */
 
@@ -413,7 +415,7 @@ html {
 
 .subtitle {
   position: relative;
-  right: 30%;
+  right: 29%;
   top: -12px;
   font-family: "adelia", cursive !important;
   font-size: 3rem;
@@ -1287,7 +1289,7 @@ html {
 
   .logo img {
     padding-top: 29%;
-    width: 190px;
+
   }
 
   .floria-hero-section {
@@ -1350,12 +1352,10 @@ html {
 
   }
 
-  .floria-double-section {
-    padding: 0;
-  }
+
 
   .top-right-img {
-    padding: 36px;
+    width: 74% !important;
   }
 
   .sub-line2 {
@@ -1370,7 +1370,7 @@ html {
     height: auto;
     display: block;
     position: relative;
-    margin-top: 18vmax;
+    margin-top: 18vmax !important;
     left: -5%;
     width: 100%;
   }
@@ -1410,7 +1410,7 @@ html {
   .vertical-tag-wrap {
 
     left: 46%;
-
+    margin-bottom: 9% !important;
     transform: translateY(-39%);
   }
 
@@ -1426,6 +1426,11 @@ html {
   .left-pattern {
 
     padding: 87px 47px;
+
+  }
+
+  .menu-content {
+    padding: 10px !important;
 
   }
 }
@@ -2405,7 +2410,7 @@ html {
   }
 
   .mobile-menu {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
@@ -2558,9 +2563,9 @@ html {
 }
 
 .price-item {
-  margin-top: 23px;
   font-size: 18px;
   color: #0c5b47;
+  margin-top: 2.5rem !important;
 }
 
 
@@ -2615,6 +2620,7 @@ html {
 }
 
 .count-cart {
+  padding: 1px 4px;
   text-decoration: none;
   font-size: 9px;
   font-weight: 400;
@@ -2625,7 +2631,7 @@ html {
   height: 12px !important;
   line-height: 11px;
   text-align: center;
-  left: -31px;
+  left: -12px;
   bottom: -10px;
   position: relative;
 
@@ -2667,4 +2673,259 @@ html {
 .size-btn.active {
   background: #1d6b57;
   color: #fff;
+}
+
+.cart-popup {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  width: 300px;
+  background: #fff;
+  border: 1px solid #ececec;
+  padding: 20px;
+  display: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+
+.cart-popup.show {
+  display: block;
+}
+
+.cart-popup-inner {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.cart-popup-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-popup-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.cart-popup-item span {
+  font-size: 14px;
+}
+
+.filter-bar a {
+  text-decoration: none;
+}
+
+
+
+
+.left-box {
+  background-image: url("../Images/contact.jpg");
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.profile-img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+
+.left-box h2 {
+  font-family: 'Playfair Display', serif;
+  color: #1b705b;
+}
+
+.left-box p {
+  color: #567165;
+  line-height: 1.6;
+}
+
+.signature {
+  margin-top: 25px;
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #b0b9b1;
+}
+
+.signature-sub {
+  color: #7b8b86;
+  font-size: 15px;
+}
+
+/* RIGHT SIDE */
+
+.right-title {
+  font-family: 'Playfair Display', serif;
+  color: #1b705b;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.form-label {
+  color: #1b705b;
+  font-weight: 600;
+  align-items: left;
+}
+
+.contact-input {
+  border: none;
+  border-bottom: 1px solid #1b705b;
+  border-radius: 0;
+  padding-left: 0;
+  padding-bottom: 8px;
+  background: transparent;
+}
+
+.contact-input:focus {
+  box-shadow: none;
+  border-bottom: 2px solid #1b705b;
+}
+
+
+
+.right-box {
+  padding: 0 0 0 49px;
+}
+
+.right-box form {
+  text-align: left !important;
+}
+
+.right-box label,
+.right-box input,
+.right-box textarea {
+  text-align: left !important;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 991px) {
+  .right-box {
+    margin-top: 40px;
+  }
+}
+
+.cart-totals-block {
+  margin: auto;
+}
+
+.totals-title {
+  font-size: 36px;
+  color: #0c5b47;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.cart-totals-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-totals-table th,
+.cart-totals-table td {
+
+  font-size: 20px;
+  color: #0c5b47;
+  vertical-align: top;
+}
+
+.cart-totals-table th {
+  font-weight: 600;
+  width: 200px;
+}
+
+.shipping-to {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.checkout-btn {
+  background: #fff2e7;
+  padding: 14px 24px;
+  border: none;
+  color: #0c5b47;
+  font-size: 16px;
+}
+
+.cart-totals-table,
+.cart-totals-table th,
+.cart-totals-table td,
+.cart-totals-block,
+.cart-totals-block * {
+  text-align: left !important;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+}
+
+.cart-totals-table td img {
+  width: 16px !important;
+  height: 16px !important;
+
+}
+
+/* Small helpers for cart rows */
+.cart-item {
+  gap: 12px;
+}
+
+.cart-img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.remove-btn {
+  cursor: pointer;
+  margin-right: 8px;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.qty-box-w {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.qty-number {
+  min-width: 34px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.qty-btns {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.qty-btns .fa-solid {
+  cursor: pointer;
+}
+
+.price-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+
+#cartSubtotalDisplay img.dirham,
+#cartTotalDisplay img.dirham {
+  width: 16px !important;
+  height: 16px !important;
+  object-fit: contain !important;
+  display: inline-block !important;
+}
+
+.popup-qty-box button {
+  width: 20px;
+  border: none;
 }

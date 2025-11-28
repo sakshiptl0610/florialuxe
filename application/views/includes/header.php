@@ -5,7 +5,8 @@ $isHome = isset($is_home) ? $is_home : false;
 <header class="main-header" id="scrollHeader">
     <div class="header-container-scroll">
         <div class="logo-scroll">
-            <img src="<?= base_url() ?>assets/logo/scroll-logo.svg" alt="">
+            <a href="<?php echo base_url('home'); ?>">
+                <img src="<?= base_url() ?>assets/logo/scroll-logo.svg" alt=""></a>
         </div>
 
         <div class="header-container2">
@@ -24,9 +25,9 @@ $isHome = isset($is_home) ? $is_home : false;
     <div class="menu-close" id="closeScroll">×</div>
 
     <div class="menu-content">
-
-        <img src="assets/logo/logo.svg" class="menu-logo" alt="Floria Logo">
-
+        <a href="<?php echo base_url('home'); ?>">
+            <img src="assets/logo/logo.svg" class="menu-logo" alt="Floria Logo">
+        </a>
         <p class="menu-text font-nexalight  ">
             Welcome to Floria, a place where all flower shops
             take on a whole new dimension of beautiful.
@@ -47,8 +48,8 @@ $isHome = isset($is_home) ? $is_home : false;
             <li><a href="<?php echo base_url('home'); ?>">Home</a></li>
             <li><a href="<?= base_url() ?>#aboutsection">About</a></li>
             <li><a href="<?php echo base_url('products'); ?>">Collection</a></li>
-            <li><a href="<?php echo base_url('#'); ?>">Special Occasion</a></li>
-            <li><a href="<?php echo base_url('#'); ?>">Contact</a></li>
+            <li><a href="<?php echo base_url('occasionalproduct'); ?>">Special Occasion</a></li>
+            <li><a href="<?php echo base_url('contactus'); ?>">Contact</a></li>
         </ul>
 
         <div class="menu-icons">

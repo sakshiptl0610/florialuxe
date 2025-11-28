@@ -372,10 +372,127 @@
 
   });
 </script>
+<script>
+  let productQty = 1;
+  const qtyValue = document.querySelector("#qtyValue");
+  const qtyUp = document.querySelector(".qty-up");
+  const qtyDown = document.querySelector(".qty-down");
 
+  // Increase
+  qtyUp.addEventListener("click", () => {
+    productQty++;
+    qtyValue.innerText = productQty;
+  });
 
+  // Decrease
+  qtyDown.addEventListener("click", () => {
+    if (productQty > 1) {
+      productQty--;
+      qtyValue.innerText = productQty;
+    }
+  });
+</script>
 
+<script>
+  addBtn.addEventListener("click", () => {
 
+    let name = document.querySelector(".title").innerText;
+    let price = 125;
+    let img = document.getElementById("mainProductImage").src;
+
+    let exists = cart.find(item => item.name === name);
+
+    if (exists) {
+      exists.qty += productQty; // <-- quantity add hogi
+    } else {
+      cart.push({
+        name: name,
+        price: price,
+        qty: productQty, // <-- quantity from product page
+        img: img
+      });
+    }
+
+    updateCartUI();
+    showPopup();
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+
+    // ----- SELECT ELEMENTS -----
+    const cartCount = document.querySelector(".count-cart");
+    const cartPopup = document.getElementById("cartPopup");
+    const headerCartBtn = document.getElementById("headerCartBtn");
+    const cartItemsBox = document.getElementById("cartItems");
+
+    let cart = []; // Front-end cart array
+
+    // ----- ADD TO CART BUTTON -----
+    const addBtn = document.querySelector("#addToCartBtn");
+    addBtn.addEventListener("click", () => {
+
+      // product detail page se product data lo
+      let name = document.querySelector(".title").innerText;
+      let price = document.querySelector(".text-color img + text") || 125;
+      let img = document.getElementById("mainProductImage").src;
+
+      // Same product exists? qty++
+      let exists = cart.find(item => item.name === name);
+
+      if (exists) {
+        exists.qty++;
+      } else {
+        cart.push({
+          name: name,
+          price: 125,
+          qty: 1,
+          img: img
+        });
+      }
+
+      updateCartUI();
+      showPopup();
+    });
+
+    // ----- UPDATE COUNT + POPUP LIST -----
+    function updateCartUI() {
+
+      // Update top icon count
+      cartCount.innerText = cart.reduce((sum, item) => sum + item.qty, 0);
+
+      // Clear old items in popup
+      cartItemsBox.innerHTML = "";
+
+      // Add updated items
+      cart.forEach(item => {
+        cartItemsBox.innerHTML += `
+                <div class="cart-popup-item">
+                    <img src="${item.img}">
+                    <div>
+                        <span><b>${item.name}</b></span><br>
+                        <span>AED ${item.price} × ${item.qty}</span>
+                    </div>
+                </div>
+            `;
+      });
+    }
+
+    // ----- SHOW POPUP -----
+    function showPopup() {
+      cartPopup.classList.add("show");
+      setTimeout(() => {
+        cartPopup.classList.remove("show");
+      }, 3000);
+    }
+
+    // ----- CLICK ON CART ICON -----
+    headerCartBtn.addEventListener("click", () => {
+      cartPopup.classList.toggle("show");
+    });
+
+  });
+</script>
 
 <script>
   const tabButtons = document.querySelectorAll("#productTabs .nav-link");
@@ -422,6 +539,300 @@
     });
 
   });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+
+    // CART PERSISTENT ACROSS ALL PAGES
+    let cart = JSON.parse(localStorage.getItem("myCart")) || [];
+
+    const cartCount = document.querySelector(".count-cart");
+    const cartPopup = document.getElementById("cartPopup");
+    const headerCartBtn = document.getElementById("headerCartBtn");
+    const cartItemsBox = document.getElementById("cartItems");
+
+    // PRODUCT DETAIL QTY
+    let productQty = 1;
+    const qtyValue = document.querySelector("#qtyValue");
+    const qtyUp = document.querySelector(".qty-up");
+    const qtyDown = document.querySelector(".qty-down");
+
+    qtyUp.addEventListener("click", () => {
+      productQty++;
+      qtyValue.innerText = productQty;
+    });
+
+    qtyDown.addEventListener("click", () => {
+      if (productQty > 1) {
+        productQty--;
+        qtyValue.innerText = productQty;
+      }
+    });
+
+    // ADD TO CART BUTTON
+    const addBtn = document.querySelector("#addToCartBtn");
+    if (addBtn) {
+      addBtn.addEventListener("click", () => {
+
+        let name = document.querySelector(".title").innerText;
+        let price = 125;
+        let img = document.getElementById("mainProductImage").src;
+
+        let exists = cart.find(item => item.name === name);
+
+        if (exists) {
+          exists.qty += productQty;
+        } else {
+          cart.push({
+            name: name,
+            price: price,
+            qty: productQty,
+            img: img
+          });
+        }
+
+        updateCartUI();
+        showPopup();
+      });
+    }
+
+    function updateCartUI() {
+
+      // HEADER CART COUNT
+      cartCount.innerText = cart.reduce((sum, item) => sum + item.qty, 0);
+
+      // POPUP LIST UPDATE
+      cartItemsBox.innerHTML = "";
+
+      cart.forEach((item, index) => {
+        cartItemsBox.innerHTML += `
+                <div class="cart-popup-item">
+                    <img src="${item.img}">
+                    <div class="w-100">
+                        <span><b>${item.name}</b></span><br>
+                        <span>AED ${item.price}</span>
+
+                        <div class="popup-qty-box" style="margin-top:5px;">
+                            <button class="popup-qty-down" data-index="${index}">-</button>
+                            <span class="popup-qty">${item.qty}</span>
+                            <button class="popup-qty-up" data-index="${index}">+</button>
+                        </div>
+                    </div>
+                </div>
+            `;
+      });
+
+      // SAVE CART TO LOCALSTORAGE (VERY IMPORTANT)
+      localStorage.setItem("myCart", JSON.stringify(cart));
+
+      bindQtyButtons();
+    }
+
+    function bindQtyButtons() {
+
+      document.querySelectorAll(".popup-qty-up").forEach(btn => {
+        btn.addEventListener("click", () => {
+          let index = btn.getAttribute("data-index");
+          cart[index].qty++;
+          updateCartUI();
+        });
+      });
+
+      document.querySelectorAll(".popup-qty-down").forEach(btn => {
+        btn.addEventListener("click", () => {
+          let index = btn.getAttribute("data-index");
+          if (cart[index].qty > 1) {
+            cart[index].qty--;
+          }
+          updateCartUI();
+        });
+      });
+    }
+
+    function showPopup() {
+      cartPopup.classList.add("show");
+      setTimeout(() => cartPopup.classList.remove("show"), 3000);
+    }
+
+    headerCartBtn?.addEventListener("click", (e) => {
+      e.stopPropagation();
+      cartPopup.classList.toggle("show");
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!cartPopup.contains(e.target) && !headerCartBtn.contains(e.target)) {
+        cartPopup.classList.remove("show");
+      }
+    });
+
+    // LOAD UI IF CART ALREADY EXISTS
+    updateCartUI();
+
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+
+    let cart = JSON.parse(localStorage.getItem("myCart")) || [];
+    const cartPage = document.getElementById("cartPage");
+    const subtotalDisplay = document.getElementById("cartSubtotalDisplay");
+    const totalDisplay = document.getElementById("cartTotalDisplay");
+
+    // Empty Cart
+    if (cart.length === 0) {
+      cartPage.innerHTML = `
+            <h3 class="text-center mt-5">Your cart is empty</h3>
+        `;
+      subtotalDisplay.innerHTML = `<img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg">0`;
+      totalDisplay.innerHTML = `<img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg">0`;
+      return;
+    }
+
+    let html = `
+        <div class="col-lg-6">
+            <h2 class="cart-title ps-4">Product</h2>
+    `;
+
+    // Product Column
+    cart.forEach((item, index) => {
+      html += `
+            <div class="d-flex align-items-center cart-item mt-4">
+                <span class="remove-btn" data-index="${index}">×</span>
+                <img src="${item.img}" class="cart-img">
+                <span class="product-name">${item.name}</span>
+            </div>
+        `;
+    });
+    html += `</div>`;
+
+    // Price Column
+    html += `<div class="col-lg-2 text-start"><h2 class="cart-title">Price</h2>`;
+    cart.forEach(item => {
+      html += `
+            <div class="price-item mt-5">
+                <img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" class="dirham">${item.price}
+            </div>
+        `;
+    });
+    html += `</div>`;
+
+    // Quantity Column
+    html += `<div class="col-lg-3"><h2 class="cart-title">Quantity</h2>`;
+    cart.forEach((item, index) => {
+      html += `
+            <div class="qty-box qty-box-w mt-4 single-product">
+                <span class="qty-label">Quantity</span>
+                <div class="qty-number"><span class="qtyValue">${item.qty}</span></div>
+                <div class="qty-btns">
+                    <div class="qty-up" data-index="${index}"><i class="fa-solid fa-chevron-up"></i></div>
+                    <div class="qty-down" data-index="${index}"><i class="fa-solid fa-chevron-down"></i></div>
+                </div>
+            </div>
+        `;
+    });
+    html += `</div>`;
+
+    // Subtotal Column
+    html += `<div class="col-lg-1"><h2 class="cart-title">Subtotal</h2>`;
+    cart.forEach(item => {
+      html += `
+            <div class="price-item mt-5">
+                <img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" class="dirham">
+                <span class="subtotalValue">${item.qty * item.price}</span>
+            </div>
+        `;
+    });
+    html += `</div>`;
+
+    cartPage.innerHTML = html;
+
+    // ==========================
+    // QUANTITY UPDATE
+    // ==========================
+    document.querySelectorAll(".qty-up").forEach(btn => {
+      btn.addEventListener("click", () => {
+        let index = btn.dataset.index;
+        cart[index].qty++;
+        saveAndRefresh();
+      });
+    });
+
+    document.querySelectorAll(".qty-down").forEach(btn => {
+      btn.addEventListener("click", () => {
+        let index = btn.dataset.index;
+        if (cart[index].qty > 1) {
+          cart[index].qty--;
+        }
+        saveAndRefresh();
+      });
+    });
+
+    // REMOVE ITEM
+    document.querySelectorAll(".remove-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        let index = btn.dataset.index;
+        cart.splice(index, 1);
+        saveAndRefresh();
+      });
+    });
+
+    // Update final Subtotal & Total
+    function updateTotals() {
+      let subtotal = cart.reduce((sum, item) => sum + (item.qty * item.price), 0);
+      subtotalDisplay.innerHTML = `<img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg"> ${subtotal}`;
+      totalDisplay.innerHTML = `<img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg"> ${subtotal}`;
+    }
+
+    // Save cart and reload UI
+    function saveAndRefresh() {
+      localStorage.setItem("myCart", JSON.stringify(cart));
+      location.reload();
+    }
+
+    updateTotals();
+
+  });
+</script>
+<script>
+  // Load Cart Items on Every Page
+  function loadCartItems() {
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+    let cartItemsBox = document.getElementById("cartItems");
+    let cartCount = document.querySelector(".count-cart");
+
+    // Update count
+    cartCount.innerText = cart.length;
+
+    // Fill popup items
+    cartItemsBox.innerHTML = "";
+    cart.forEach(item => {
+      cartItemsBox.innerHTML += `
+            <div class="cart-item">
+                <img src="${item.image}" width="40">
+                <span>${item.name}</span>
+                <strong>×${item.qty}</strong>
+            </div>
+        `;
+    });
+  }
+
+  // Show popup
+  document.getElementById("headerCartBtn").addEventListener("click", () => {
+    document.getElementById("cartPopup").classList.toggle("show");
+  });
+
+  // Close popup on outside click
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest("#headerCartBtn") &&
+      !e.target.closest("#cartPopup")) {
+      document.getElementById("cartPopup").classList.remove("show");
+    }
+  });
+
+  // Auto load on every page
+  loadCartItems();
 </script>
 
 

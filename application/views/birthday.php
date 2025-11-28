@@ -11,15 +11,28 @@
 </div>
 
 
-<!-- ⭐ FILTER AREA – MOVED OUTSIDE MAIN-CONTAINER -->
 <div class="filter-area text-center pt-5 pb-4 main-container">
   <div class="filter-wrapper">
-
     <ul class="filter-bar font-oswaldextralight">
-      <li class="active" data-filter="all">All</li>
-      <li data-filter="fresh ">Fresh</li>
-      <li data-filter="seasonal">Seasonal</li>
 
+      <a href="<?php echo base_url('valentinesday'); ?>">
+        <li>Valentinesday</li>
+      </a>
+      <a href="<?php echo base_url('mothersday'); ?>">
+        <li>Mothersday</li>
+      </a>
+      <a href="<?php echo base_url('birthday'); ?>">
+        <li class="active">Birthday</li>
+      </a>
+      <a href="<?php echo base_url('annivarsary'); ?>">
+        <li>Anniversary</li>
+      </a>
+      <a href="<?php echo base_url('wedding'); ?>">
+        <li>Weddings</li>
+      </a>
+      <a href="<?php echo base_url('newborn'); ?>">
+        <li>New Born</li>
+      </a>
     </ul>
 
     <div class="dropdown-btn">+</div>

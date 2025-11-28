@@ -4,7 +4,8 @@
 <header class="floria-header">
     <div class="header-container">
         <div class="logo">
-            <img src="assets/logo/logo.svg" alt="Floria Luxe">
+            <a href="<?php echo base_url('home'); ?>">
+                <img src="assets/logo/logo.svg" alt="Floria Luxe"></a>
         </div>
 
         <div class="header-container2">
@@ -26,9 +27,9 @@
     <div class="menu-close" id="closeFirst">×</div>
 
     <div class="menu-content">
-
-        <img src="assets/logo/logo.svg" class="menu-logo" alt="Floria Logo">
-
+        <a href="<?php echo base_url('home'); ?>">
+            <img src="assets/logo/logo.svg" class="menu-logo" alt="Floria Logo">
+        </a>
         <p class="menu-text font-nexalight   ">
             Welcome to Floria, a place where all flower shops
             take on a whole new dimension of beautiful.
@@ -49,8 +50,8 @@
             <li><a href="<?php echo base_url('home'); ?>">Home</a></li>
             <li><a href="<?= base_url() ?>#aboutsection">About</a></li>
             <li><a href="<?php echo base_url('products'); ?>">Collection</a></li>
-            <li><a href="<?php echo base_url('#'); ?>">Special Occasion</a></li>
-            <li><a href="<?php echo base_url('#'); ?>">Contact</a></li>
+            <li><a href="<?php echo base_url('occasionalproduct'); ?>">Special Occasion</a></li>
+            <li><a href="<?php echo base_url('contactus'); ?>">Contact</a></li>
         </ul>
 
         <div class="menu-icons">
@@ -413,7 +414,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="emotion-card">
-                        <a href="<?= base_url('valentinesday'); ?>">
+                        <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-15.jpg" alt="">
                         </a>
                         <div class="label-box font-nexalight">Valentine's Day</div>
@@ -422,7 +423,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="emotion-card">
-                        <a href="<?= base_url('mothersday'); ?>">
+                        <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-16.jpg" alt="">
                         </a>
                         <div class="label-box font-nexalight">Mother's Day</div>
@@ -431,7 +432,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="emotion-card">
-                        <a href="<?= base_url('birthday'); ?>">
+                        <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-17.jpg" alt="">
                         </a>
                         <div class="label-box font-nexalight">Birth Day</div>
@@ -440,7 +441,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="emotion-card">
-                        <a href="#">
+                        <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-18.jpg" alt="">
                         </a>
                         <div class="label-box font-nexalight">Anniversary
@@ -450,7 +451,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="emotion-card">
-                        <a href="#">
+                        <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-19.jpg" alt="">
                         </a>
                         <div class="label-box font-nexalight">Weddings</div>
@@ -459,7 +460,7 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="emotion-card">
-                        <a href="#">
+                        <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-20.jpg" alt="">
                         </a>
                         <div class="label-box font-nexalight">New Born</div>
