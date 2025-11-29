@@ -2,7 +2,7 @@
 <?php include('includes/mainheader.php') ?>
 
 <div class="success-wrapper text-center py-5">
-  <img src="<?= base_url('assets/icons/success.svg') ?>" width="110">
+  <img src="<?= base_url('assets/icons/success.gif') ?>" width="110">
 
   <h2 class="mt-4 text-success">Your Order is Confirmed!</h2>
   <p class="text-muted mt-2">Thank you for your purchase. Below is your order summary.</p>
@@ -17,7 +17,7 @@
     </h5>
   </div>
 
-  <a href="<?= base_url('products') ?>" class="btn btn-primary mt-4">Continue Shopping</a>
+  <a href="<?= base_url('products') ?>" class="btn-shhopping mt-4">Continue Shopping</a>
 </div>
 
 <script>

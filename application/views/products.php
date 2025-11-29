@@ -12,33 +12,34 @@
 
 
 
-<div class="filter-area text-center pt-5 pb-4 main-container">
-  <div class="filter-wrapper">
-
-    <ul class="filter-bar font-oswaldextralight">
-      <li class="active" data-filter="all">All</li>
-      <li data-filter="fresh">Fresh</li>
-      <li data-filter="seasonal">Seasonal</li>
-
-    </ul>
-
-    <div class="dropdown-btn">+</div>
-
-    <div class="extra-dropdown font-oswaldextralight">
-      <p data-filter="winter">Winter</p>
-      <p data-filter="autumn">Autumn</p>
-      <p data-filter="bouquet">Bouquet</p>
-      <p data-filter="luxury">Luxury</p>
-      <p data-filter="romantic">Romantic</p>
-    </div>
-
-  </div>
-</div>
 <!-- ⭐ FILTER AREA END -->
 
 
 <!-- ⭐ PRODUCT GRID NOW SEPARATE -->
-<div>
+<div class="main-container">
+
+  <div class="filter-area text-center pt-5 pb-4 ">
+    <div class="filter-wrapper">
+
+      <ul class="filter-bar font-oswaldextralight">
+        <li class="active" data-filter="all">All</li>
+        <li data-filter="fresh">Fresh</li>
+        <li data-filter="seasonal">Seasonal</li>
+
+      </ul>
+
+      <div class="dropdown-btn">+</div>
+
+      <div class="extra-dropdown font-oswaldextralight">
+        <p data-filter="winter">Winter</p>
+        <p data-filter="autumn">Autumn</p>
+        <p data-filter="bouquet">Bouquet</p>
+        <p data-filter="luxury">Luxury</p>
+        <p data-filter="romantic">Romantic</p>
+      </div>
+
+    </div>
+  </div>
   <div class="row g-4">
     <!-- tumhara product code same rehega -->
 

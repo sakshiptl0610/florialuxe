@@ -11,47 +11,48 @@
 </div>
 
 
-<div class="filter-area text-center pt-5 pb-4 main-container">
-  <div class="filter-wrapper">
-    <ul class="filter-bar font-oswaldextralight">
 
-      <a href="<?php echo base_url('valentinesday'); ?>">
-        <li>Valentinesday</li>
-      </a>
-      <a href="<?php echo base_url('mothersday'); ?>">
-        <li>Mothersday</li>
-      </a>
-      <a href="<?php echo base_url('birthday'); ?>">
-        <li>Birthday</li>
-      </a>
-      <a href="<?php echo base_url('annivarsary'); ?>">
-        <li>Anniversary</li>
-      </a>
-      <a href="<?php echo base_url('wedding'); ?>">
-        <li class="active">Weddings</li>
-      </a>
-      <a href="<?php echo base_url('newborn'); ?>">
-        <li>New Born</li>
-      </a>
-    </ul>
 
-    <div class="dropdown-btn">+</div>
-
-    <div class="extra-dropdown font-oswaldextralight">
-      <p data-filter="winter">Winter</p>
-      <p data-filter="autumn">Autumn</p>
-      <p data-filter="bouquet">Bouquet</p>
-      <p data-filter="luxury">Luxury</p>
-      <p data-filter="romantic">Romantic</p>
-    </div>
-
-  </div>
-</div>
-<!-- ⭐ FILTER AREA END -->
 
 
 <!-- ⭐ PRODUCT GRID NOW SEPARATE -->
-<div>
+<div class="main-container">
+  <div class="filter-area text-center pt-5 pb-4 ">
+    <div class="filter-wrapper">
+      <ul class="filter-bar font-oswaldextralight">
+
+        <a href="<?php echo base_url('valentinesday'); ?>">
+          <li>Valentinesday</li>
+        </a>
+        <a href="<?php echo base_url('mothersday'); ?>">
+          <li>Mothersday</li>
+        </a>
+        <a href="<?php echo base_url('birthday'); ?>">
+          <li>Birthday</li>
+        </a>
+        <a href="<?php echo base_url('annivarsary'); ?>">
+          <li>Anniversary</li>
+        </a>
+        <a href="<?php echo base_url('wedding'); ?>">
+          <li class="active">Weddings</li>
+        </a>
+        <a href="<?php echo base_url('newborn'); ?>">
+          <li>New Born</li>
+        </a>
+      </ul>
+
+      <div class="dropdown-btn">+</div>
+
+      <div class="extra-dropdown font-oswaldextralight">
+        <p data-filter="winter">Winter</p>
+        <p data-filter="autumn">Autumn</p>
+        <p data-filter="bouquet">Bouquet</p>
+        <p data-filter="luxury">Luxury</p>
+        <p data-filter="romantic">Romantic</p>
+      </div>
+
+    </div>
+  </div>
   <div class="row g-4">
     <!-- tumhara product code same rehega -->
 

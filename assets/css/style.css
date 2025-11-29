@@ -2929,3 +2929,24 @@ html {
   width: 20px;
   border: none;
 }
+
+.btn-shhopping {
+  display: block;
+  background: #fdeee0;
+  border: none;
+  color: #0c5b47;
+  font-size: 16px;
+  width: 195px;
+  padding: 16px;
+
+  text-decoration: none;
+  position: relative;
+  display: revert;
+  left: 50%;
+  transform: translateX(-50%);
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

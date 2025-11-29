@@ -100,8 +100,8 @@
       <table class="summary-table" id="checkoutOrderTable">
         <!-- JS will auto-fill with real cart items -->
       </table>
-      <a href="<?php echo base_url('ordersuccess'); ?>">
-        <button type="submit" class="place-order-btn mt-4">Place order</button></a>
+      <button type="submit" class="place-order-btn mt-4">Place order</button>
+
     </div>
 
     <!-- Hidden input for cart -->
