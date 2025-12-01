@@ -26,7 +26,11 @@
         <!-- LEFT: Product Gallery -->
         <div class="product-row-inner">
           <div class="p-product-image">
+<<<<<<< HEAD
             <img id="mainProductImage" src="<?= base_url() ?>assets/Images/chocolate.jpg"
+=======
+            <img id="mainProductImage" src="<?= base_url() ?>assets/Images/Chocolate.jpg"
+>>>>>>> 4eac9f3169ad26abe712cd4a2053d49387595a5d
               class="img-fluid w-100 mb-3" alt="Product">
           </div>
 
@@ -35,10 +39,14 @@
           <div class=" product-content-box">
 
             <p class="font-canegroni text-color title">Chocolates</p>
+<<<<<<< HEAD
             <h5 class="text-color mt-3 product-price" data-price="125">
               <img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" class="dirham">125
             </h5>
 
+=======
+            <h5 class="text-color mt-3 "><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">125</h5>
+>>>>>>> 4eac9f3169ad26abe712cd4a2053d49387595a5d
 
             <p class="text-color font-nexalight tagline mt-3 ">
               Our premium chocolates are crafted from the finest cocoa and blended to perfection for a smooth, rich, and indulgent taste. Each piece delivers exceptional quality and elegant presentation, making them perfect for gifting, celebrations, or adding a sweet touch to any special moment.

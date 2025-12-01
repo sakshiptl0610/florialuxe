@@ -35,10 +35,14 @@
           <div class=" product-content-box">
 
             <p class="font-canegroni text-color title">Card</p>
+<<<<<<< HEAD
             <h5 class="text-color mt-3 product-price" data-price="125">
               <img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" class="dirham">125
             </h5>
 
+=======
+            <h5 class="text-color mt-3 "><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">125</h5>
+>>>>>>> 4eac9f3169ad26abe712cd4a2053d49387595a5d
 
             <p class="text-color font-nexalight tagline mt-3 ">
               Our elegant gift cards come with the option to add your own personalized message, making every order more meaningful and heartfelt. Perfect for any occasion, the customized note adds a thoughtful touch that makes your gift truly special and memorable.
