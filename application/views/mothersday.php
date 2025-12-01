@@ -189,12 +189,11 @@
           </div>
         </div>
 
-
-
-
-
       </div>
     </div>
+  </div>
+
+</div>
 
 
     <section class="season-section position-relative">

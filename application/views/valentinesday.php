@@ -190,15 +190,15 @@
                 <span class="add-btn">Add to cart</span>
               </div>
             </a>
-          </div>
+     </div>
         </div>
-
-
-
-
 
       </div>
     </div>
+  </div>
+
+</div>
+
 
 
     <section class="season-section position-relative">

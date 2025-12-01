@@ -40,8 +40,9 @@
           <div class="emotion-card">
             <a href="<?= base_url('birthday'); ?>">
               <img src="assets/Images/FLORIA-17.jpg" alt="">
+
+              <div class="label-box text-center font-nexalight">Birth Day</div>
             </a>
-            <div class="label-box text-center font-nexalight">Birth Day</div>
           </div>
         </div>
 
@@ -49,9 +50,10 @@
           <div class="emotion-card">
             <a href="<?= base_url('annivarsary'); ?>">
               <img src="assets/Images/FLORIA-18.jpg" alt="">
+
+              <div class="label-box text-center font-nexalight">Anniversary
+              </div>
             </a>
-            <div class="label-box text-center font-nexalight">Anniversary
-            </div>
           </div>
         </div>
 
@@ -59,8 +61,9 @@
           <div class="emotion-card">
             <a href="<?= base_url('wedding'); ?>">
               <img src="assets/Images/FLORIA-19.jpg" alt="">
+
+              <div class="label-box text-center font-nexalight">Weddings</div>
             </a>
-            <div class="label-box text-center font-nexalight">Weddings</div>
           </div>
         </div>
 
@@ -68,8 +71,9 @@
           <div class="emotion-card">
             <a href="<?= base_url('newborn'); ?>">
               <img src="assets/Images/FLORIA-20.jpg" alt="">
+
+              <div class="label-box text-center font-nexalight">New Born</div>
             </a>
-            <div class="label-box text-center font-nexalight">New Born</div>
           </div>
         </div>
 

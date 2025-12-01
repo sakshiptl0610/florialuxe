@@ -3,8 +3,8 @@
 <div>
   <div class="top-header body-content">
     <div class="main-container d-flex justify-content-between align-items-center">
-      <h2 class="page-title font-canegroni">Leucospermum</h2>
-      <div class="breadcrumb font-nexalight  ">Home /Leucospermum</div>
+      <h2 class="page-title font-canegroni">Gift Bag</h2>
+      <div class="breadcrumb font-nexalight  ">Home /gift bag</div>
     </div>
   </div>
 
@@ -12,7 +12,7 @@
     <div class="inner-p-container">
       <div class="view-cart-box">
         <div>
-          “Leucospermum” has been added to your cart.
+          “Gift Bag” has been added to your cart.
         </div>
 
         <div>
@@ -26,7 +26,7 @@
         <!-- LEFT: Product Gallery -->
         <div class="product-row-inner">
           <div class="p-product-image">
-            <img id="mainProductImage" src="<?= base_url() ?>assets/Images/FLORIA-12.jpg"
+            <img id="mainProductImage" src="<?= base_url() ?>assets/Images/bag.webp"
               class="img-fluid w-100 mb-3" alt="Product">
           </div>
 
@@ -34,14 +34,14 @@
           <!-- RIGHT: Product Details -->
           <div class=" product-content-box">
 
-            <p class="font-canegroni text-color title">Leucospermum</p>
+            <p class="font-canegroni text-color title">Gift Bag</p>
             <h5 class="text-color mt-3 product-price" data-price="125">
               <img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" class="dirham">125
             </h5>
 
 
             <p class="text-color font-nexalight tagline mt-3 ">
-              Our Leucospermum flowers feature striking pin-cushion blooms and vibrant, long-lasting color. Sourced from premium farms, they bring a bold, exotic touch to any arrangement. Their unique texture and strong presence make them perfect for luxury bouquets, modern décor, and artistic floral designs.
+              Our premium gift bags are designed with a sleek, elegant finish to elevate any present. Made from high-quality materials, they offer a luxurious look and sturdy feel. Perfect for flowers, chocolates, or special gifts, adding a refined touch to every occasion.
             </p>
 
             <div class="quantity-wrapper d-flex align-items-center">
@@ -71,7 +71,7 @@
             <!-- META -->
             <div class="mt-3 text-color details">
 
-              <p><span class="heading-td">Category:</span> Leucospermum</p>
+              <p><span class="heading-td">Category:</span> Gift Bag</p>
               <p>
                 <span class="heading-td"> Tags:</span> Fresh
               </p>
@@ -204,15 +204,13 @@
       <!-- RELATED PRODUCTS -->
       <h3 class="mt-5">Related Products</h3>
 
-
-
       <div class="row row-cols-1 row-cols-md-4 g-4 mt-2">
 
         <!-- Product Card -->
         <div class="col product-box">
           <div class="card border-0">
-            <a href="<?php echo base_url('candle'); ?>">
-              <img src="<?= base_url() ?>assets/Images/candle.webp">
+            <a href="<?php echo base_url('products'); ?>">
+              <img src="<?= base_url() ?>assets/Images/FLORIA-7.jpg">
               <div class="hover-card mt-5">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
                   <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
@@ -220,7 +218,7 @@
 			c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
 			c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
                 </svg>
-                <h3 class="font-canegroni">Candles</h3>
+                <h3 class="font-canegroni">Flowers</h3>
 
               </div>
               <div class="price-row">
@@ -233,7 +231,7 @@
 
         <div class="col product-box">
           <div class="card border-0">
-            <a href="<?php echo base_url('chocolate'); ?>">
+            <a href="<?php echo base_url('chocolates'); ?>">
               <img src="<?= base_url() ?>assets/Images/chocolate.jpg">
               <div class="hover-card mt-5">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
@@ -275,8 +273,8 @@
         </div>
         <div class="col product-box">
           <div class="card border-0">
-            <a href="<?php echo base_url('bag'); ?>">
-              <img src="<?= base_url() ?>assets/Images/bag.webp">
+            <a href="<?php echo base_url('candle'); ?>">
+              <img src="<?= base_url() ?>assets/Images/candle.webp">
               <div class="hover-card mt-5">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
                   <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
@@ -284,7 +282,7 @@
 			c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
 			c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
                 </svg>
-                <h3 class="font-canegroni">Gift Bags</h3>
+                <h3 class="font-canegroni">Candles</h3>
 
               </div>
               <div class="price-row">

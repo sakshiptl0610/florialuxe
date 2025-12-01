@@ -2412,6 +2412,37 @@ html {
   .mobile-menu {
     width: 100% !important;
   }
+
+  .filter-wrapper {
+    width: 100%;
+    overflow-x: scroll;
+  }
+
+  .filter-bar li {
+    width: max-content;
+  }
+
+
+  .dropdown-btn {
+    margin-left: 8px;
+    margin-bottom: 13px;
+  }
+
+  .product-t-p {
+    margin-left: 0 !important;
+  }
+
+  .cart-title,
+  .price-item,
+  .qty-box-w {
+    margin-left: 1.5rem;
+    margin-top: 40px;
+
+  }
+
+  .qty-box-w {
+    width: 43% !important;
+  }
 }
 
 /* Tablet (<=768px) */
@@ -2634,7 +2665,7 @@ html {
   left: -12px;
   bottom: -10px;
   position: relative;
-
+  cursor: pointer;
 }
 
 .choose-title {
@@ -2949,4 +2980,27 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+@media (min-width: 1600px) {
+  .right-content {
+    margin-top: 40% !important;
+  }
+
+  .vertical-tag-wrap {
+    margin-bottom: -1.5% !important;
+  }
+
+  .sub-line2 {
+    bottom: 104% !important;
+  }
+
+  .floria-hero-section .floria-hero-container {
+    padding: 9% !important;
+  }
+
+  .floria-hero-section .floating-line {
+    top: 9.5% !important;
+  }
 }

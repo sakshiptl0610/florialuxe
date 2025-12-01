@@ -120,6 +120,30 @@ class Home extends CI_Controller
 
         $this->load->view('contactus');
     }
+    public function candle()
+    {
+        $data['title'] = 'candle';
+
+        $this->load->view('candle');
+    }
+    public function card()
+    {
+        $data['title'] = 'card';
+
+        $this->load->view('card');
+    }
+    public function chocolate()
+    {
+        $data['title'] = 'chocolate';
+
+        $this->load->view('chocolate');
+    }
+    public function bag()
+    {
+        $data['title'] = 'bag';
+
+        $this->load->view('bag');
+    }
 
     public function ordersuccess()
     {

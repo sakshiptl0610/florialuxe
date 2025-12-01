@@ -129,7 +129,7 @@
                 <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
                 <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901 c1.594-0.412,2.357-1.25,3.348-2.558 c1.48-1.951,2.17-3.886,2.419-6.336 c0.142-1.393-0.162-2.887,0.118-4.235 c-0.28,2.665-3.648,4.36-5.069,6.397 c-1.135,1.625-1.124,2.954-1.649,4.763 c-0.546,1.879-1.48,1.798-2.831,2.889 C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
             </svg>
-        </div><img src="https://florialuxe.ae/florialuxe/assets/Images/FLORIA-2.jpg" class="w-100" alt="Florist">
+        </div><img src="https://florialuxe.ae/florialuxe/assets/Images/about.png" class="w-100" alt="Florist">
     </div>
 
 
@@ -416,8 +416,9 @@
                     <div class="emotion-card">
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-15.jpg" alt="">
+
+                            <div class="label-box font-nexalight">Valentine's Day</div>
                         </a>
-                        <div class="label-box font-nexalight">Valentine's Day</div>
                     </div>
                 </div>
 
@@ -425,8 +426,9 @@
                     <div class="emotion-card">
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-16.jpg" alt="">
+
+                            <div class="label-box font-nexalight">Mother's Day</div>
                         </a>
-                        <div class="label-box font-nexalight">Mother's Day</div>
                     </div>
                 </div>
 
@@ -434,8 +436,9 @@
                     <div class="emotion-card">
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-17.jpg" alt="">
+
+                            <div class="label-box font-nexalight">Birth Day</div>
                         </a>
-                        <div class="label-box font-nexalight">Birth Day</div>
                     </div>
                 </div>
 
@@ -453,8 +456,9 @@
                     <div class="emotion-card">
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-19.jpg" alt="">
+
+                            <div class="label-box font-nexalight">Weddings</div>
                         </a>
-                        <div class="label-box font-nexalight">Weddings</div>
                     </div>
                 </div>
 
@@ -462,8 +466,9 @@
                     <div class="emotion-card">
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-20.jpg" alt="">
+
+                            <div class="label-box font-nexalight">New Born</div>
                         </a>
-                        <div class="label-box font-nexalight">New Born</div>
                     </div>
                 </div>
 

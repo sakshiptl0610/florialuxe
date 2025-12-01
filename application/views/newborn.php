@@ -33,7 +33,7 @@
           <li>Anniversary</li>
         </a>
         <a href="<?php echo base_url('wedding'); ?>">
-          <li class="active">Weddings</li>
+          <li >Weddings</li>
         </a>
         <a href="<?php echo base_url('newborn'); ?>">
           <li class="active">New Born</li>
@@ -112,7 +112,7 @@
         <div class="col-md-4 product seasonal">
           <div class="product-box">
             <a href="<?php echo base_url('orchids'); ?>">
-              <img src="<?= base_url() ?>assets/Images/W-2.png">
+              <img src="<?= base_url() ?>assets/Images/N-2.png">
               <div class="hover-card">
                 <div class="size-hover">
                   <h4 class="font-canegroni choose-title">Choose Size
@@ -153,7 +153,7 @@
         <div class="col-md-4 product seasonal">
           <div class="product-box">
             <a href="<?php echo base_url('peonies'); ?>">
-              <img src="<?= base_url() ?>assets/Images/W-3.png">
+              <img src="<?= base_url() ?>assets/Images/N-3.png">
               <div class="hover-card">
                 <div class="size-hover">
                   <h4 class="font-canegroni choose-title">Choose Size
@@ -187,15 +187,15 @@
                 <span class="add-btn">Add to cart</span>
               </div>
             </a>
-          </div>
         </div>
-
-
-
-
+        </div>
 
       </div>
     </div>
+  </div>
+
+</div>
+
 
 
     <section class="season-section position-relative">

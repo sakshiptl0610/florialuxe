@@ -36,11 +36,22 @@
         <div class="checkout-field">
           <label>Country / Region *</label>
           <select name="country">
-            <option>India</option>
-            <option>USA</option>
+
             <option>UAE</option>
-            <option>Ireland</option>
-            <option>Japan</option>
+
+          </select>
+        </div>
+        <div class="checkout-field">
+          <label>State *</label>
+          <select name="state">
+            <option>Select your state</option>
+            <option>Abu Dhabi</option>
+            <option>Dubai</option>
+            <option>Sharjah</option>
+            <option>Ajman</option>
+            <option>Umm AI Quwain</option>
+            <option>Ras AI Khaimah</option>
+            <option>Fujairah</option>
           </select>
         </div>
 
@@ -54,17 +65,10 @@
           <input type="text" name="city" required>
         </div>
 
-        <div class="checkout-field">
-          <label>State *</label>
-          <select name="state">
-            <option>Select your state</option>
-            <option>UP</option>
-          </select>
-        </div>
 
         <div class="checkout-field">
-          <label>PIN Code *</label>
-          <input type="text" name="pincode" required>
+          <label>Whatsapp *</label>
+          <input type="text" name="phone" required>
         </div>
 
         <div class="checkout-field">
