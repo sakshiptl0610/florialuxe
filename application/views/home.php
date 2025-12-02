@@ -36,7 +36,7 @@
         </p>
 
 
-        <img class="menu-signature" src="<?= base_url() ?>assets/icons/sign.png">
+        <img class="menu-signature" src="<?= base_url() ?>assets/icons/sign2.png">
         <p class="menu-small-sub font-oswaldextralight">Founder</p>
 
         <div class="menu-grid">
@@ -67,7 +67,7 @@
     <div class="bg-layer"></div>
 
     <div class="bg-image">
-        <div class="container">
+        <div class="container line-h">
             <span class="subtitle font-adelia">every bloom</span>
             <p class="title-main">
             <p class="title-main">
@@ -113,9 +113,9 @@
             and graceful forms bringing warmth and emotion to every moment.
         </p>
 
-        <h3 class="signature-text mt-5">designed with love</h3>
+        <h3 class="signature-text">designed with love</h3>
 
-        <p class="sub-text mt-4 font-nexalight">Inspired by nature. Tailored by hand.</p>
+        <p class="sub-text mt-4 font-nexalight">Inspired by nature. <br> Tailored by hand.</p>
     </div>
 </section>
 
@@ -167,7 +167,7 @@
                             WHERE NATURE <br> MEETS ARTISTRY
                         </h2>
 
-                        <p class="desc font-nexalight">
+                        <p class="desc mt-3 font-nexalight">
                             At Floria Luxe, we believe flowers speak a language of their own.
                             Every arrangement is thoughtfully designed to evoke emotion,
                             celebrate beauty.
@@ -417,8 +417,18 @@
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-15.jpg" alt="">
 
-                            <div class="label-box font-nexalight">Valentine's Day</div>
+                            <div class="hover-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                    <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                    <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                                </svg>
+                                <h3 class="font-canegroni">Valentine's Day</h3>
+
+                            </div>
                         </a>
+
                     </div>
                 </div>
 
@@ -427,7 +437,16 @@
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-16.jpg" alt="">
 
-                            <div class="label-box font-nexalight">Mother's Day</div>
+                            <div class="hover-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                    <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                    <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                                </svg>
+                                <h3 class="font-canegroni">Mother's Day</h3>
+
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -437,7 +456,16 @@
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-17.jpg" alt="">
 
-                            <div class="label-box font-nexalight">Birth Day</div>
+                            <div class="hover-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                    <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                    <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                                </svg>
+                                <h3 class="font-canegroni">Birth Day</h3>
+
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -446,9 +474,18 @@
                     <div class="emotion-card">
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-18.jpg" alt="">
+
+                            <div class="hover-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                    <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                    <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                                </svg>
+                                <h3 class="font-canegroni fs-4">Annivarsary</h3>
+
+                            </div>
                         </a>
-                        <div class="label-box font-nexalight">Anniversary
-                        </div>
                     </div>
                 </div>
 
@@ -457,8 +494,18 @@
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-19.jpg" alt="">
 
-                            <div class="label-box font-nexalight">Weddings</div>
+                            <div class="hover-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                    <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                    <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                                </svg>
+                                <h3 class="font-canegroni">Wedding</h3>
+
+                            </div>
                         </a>
+
                     </div>
                 </div>
 
@@ -467,7 +514,16 @@
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-20.jpg" alt="">
 
-                            <div class="label-box font-nexalight">New Born</div>
+                            <div class="hover-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                    <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                    <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                                </svg>
+                                <h3 class="font-canegroni">New Born</h3>
+
+                            </div>
                         </a>
                     </div>
                 </div>

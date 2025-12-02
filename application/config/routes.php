@@ -28,3 +28,4 @@ $route['candle'] = 'Home/candle';
 $route['chocolate'] = 'Home/chocolate';
 $route['card'] = 'Home/card';
 $route['bag'] = 'Home/bag';
+$route['subscription'] = 'Home/subscription';

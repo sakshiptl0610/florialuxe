@@ -34,7 +34,7 @@ $isHome = isset($is_home) ? $is_home : false;
         </p>
 
 
-        <img class="menu-signature" src="<?= base_url() ?>assets/icons/sign.png">
+        <img class="menu-signature" src="<?= base_url() ?>assets/icons/sign2.png">
         <p class="menu-small-sub font-oswaldextralight">Founder</p>
 
         <div class="menu-grid">

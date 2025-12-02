@@ -24,7 +24,7 @@
       <div class="product-row">
 
         <!-- LEFT: Product Gallery -->
-        <div class="product-row-inner">
+        <div class="product-row-inner ">
           <div class="p-product-image">
             <img id="mainProductImage" src="<?= base_url() ?>assets/Images/FLORIA-7.jpg"
               class="img-fluid w-100 mb-3" alt="Product">

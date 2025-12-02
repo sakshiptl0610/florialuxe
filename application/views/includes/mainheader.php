@@ -38,7 +38,7 @@
 
   <div id="cartItems" class="cart-items-box"></div>
 
-  <div class="cart-popup-footer cart-btn">
+  <div class="cart-popup-footer view-btn">
     <a href="<?= base_url('cart') ?>" class="view-cart-btn">View Cart</a>
   </div>
 </div>
@@ -59,7 +59,7 @@
       take on a whole new dimension of beautiful.
     </p>
 
-    <img class="menu-signature" src="<?= base_url() ?>assets/icons/sign.png">
+    <img class="menu-signature" src="<?= base_url() ?>assets/icons/sign2.png">
     <p class="menu-small-sub font-oswaldextralight">Founder</p>
 
     <div class="menu-grid">

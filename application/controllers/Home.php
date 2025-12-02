@@ -144,7 +144,12 @@ class Home extends CI_Controller
 
         $this->load->view('bag');
     }
+    public function subscription()
+    {
+        $data['title'] = 'subscription';
 
+        $this->load->view('subscription');
+    }
     public function ordersuccess()
     {
         // --------- Get Checkout Form Data ----------
