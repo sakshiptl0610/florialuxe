@@ -28,4 +28,8 @@ $route['candle'] = 'Home/candle';
 $route['chocolate'] = 'Home/chocolate';
 $route['card'] = 'Home/card';
 $route['bag'] = 'Home/bag';
+<<<<<<< HEAD
 $route['subscription'] = 'Home/subscription';
+=======
+$route['subscription'] = 'Home/subscription';
+>>>>>>> e7fa16e8b9111a65889ce31e59dbf4f90b7b153e

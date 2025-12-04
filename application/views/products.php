@@ -249,8 +249,12 @@
     class="subscription-bg" alt="bg">
 
   <div class="subscription-badge">
+<<<<<<< HEAD
       <a href="<?= base_url('subscription'); ?>">
         <img src="<?= base_url() ?>assets/icons/FLORIA-SUB ICON-5svg.svg" alt="bg"></a>
+=======
+    <img src="<?= base_url() ?>assets/icons/FLORIA-SUB ICON-5svg.svg" alt="bg">
+>>>>>>> e7fa16e8b9111a65889ce31e59dbf4f90b7b153e
   </div>
 </section>
 

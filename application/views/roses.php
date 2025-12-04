@@ -24,7 +24,7 @@
       <div class="product-row">
 
         <!-- LEFT: Product Gallery -->
-        <div class="product-row-inner">
+        <div class="product-row-inner ">
           <div class="p-product-image">
             <img id="mainProductImage" src="<?= base_url() ?>assets/Images/FLORIA-7.jpg"
               class="img-fluid w-100 mb-3" alt="Product">
@@ -35,7 +35,11 @@
           <div class=" product-content-box">
 
             <p class="font-canegroni text-color title">Roses</p>
+<<<<<<< HEAD
            <h5 class="text-color mt-3 product-price" data-price="125">
+=======
+            <h5 class="text-color mt-3 product-price" data-price="125">
+>>>>>>> e7fa16e8b9111a65889ce31e59dbf4f90b7b153e
               <img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" class="dirham">125
             </h5>
 

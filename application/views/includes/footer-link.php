@@ -2,27 +2,49 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- LUCIDE ICONS -->
+<<<<<<< HEAD
+=======
+<!-- LUCIDE ICONS (ESM) -->
+>>>>>>> e7fa16e8b9111a65889ce31e59dbf4f90b7b153e
 <script type="module">
   import {
     createIcons,
     Instagram,
+<<<<<<< HEAD
     FacebookIcon,
     MessageCircle
   }
   from "https://cdn.jsdelivr.net/npm/lucide@latest";
+=======
+    Facebook,
+    MessageCircle
+  } from "https://cdn.jsdelivr.net/npm/lucide@latest";
+>>>>>>> e7fa16e8b9111a65889ce31e59dbf4f90b7b153e
 
+  // Map WhatsApp to MessageCircle (Lucide doesn't have a WhatsApp logo)
   createIcons({
     icons: {
       Instagram,
+<<<<<<< HEAD
       FacebookIcon,
+=======
+      Facebook,
+>>>>>>> e7fa16e8b9111a65889ce31e59dbf4f90b7b153e
       Whatsapp: MessageCircle
     }
   });
 </script>
 
+<<<<<<< HEAD
 <script>
   document.addEventListener("DOMContentLoaded", () => {
 
+=======
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+
+>>>>>>> e7fa16e8b9111a65889ce31e59dbf4f90b7b153e
     /* =====================================================
        1️⃣ HEADER MENUS
     ===================================================== */
@@ -334,6 +356,7 @@
     updateCartUI();
 
   });
+<<<<<<< HEAD
 </script>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -419,3 +442,6 @@
 </body>
 
 </html>
+=======
+</script>
+>>>>>>> e7fa16e8b9111a65889ce31e59dbf4f90b7b153e

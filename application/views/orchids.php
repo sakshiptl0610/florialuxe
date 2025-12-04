@@ -35,7 +35,11 @@
           <div class=" product-content-box">
 
             <p class="font-canegroni text-color title">Orchids</p>
+<<<<<<< HEAD
          <h5 class="text-color mt-3 product-price" data-price="125">
+=======
+            <h5 class="text-color mt-3 product-price" data-price="125">
+>>>>>>> e7fa16e8b9111a65889ce31e59dbf4f90b7b153e
               <img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" class="dirham">125
             </h5>
 

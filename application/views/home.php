@@ -166,6 +166,7 @@
               c-1.135,1.625-1.124,2.954-1.649,4.763 c-0.546,1.879-1.48,1.798-2.831,2.889
               C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
             </svg>
+<<<<<<< HEAD
         </div>
 
 
@@ -173,6 +174,9 @@
             <img src="<?= base_url() ?>assets/Images/about.png" alt="Leaf">
         </div>
 
+=======
+        </div><img src="https://florialuxe.ae/florialuxe/assets/Images/about.png" class="w-100" alt="Florist">
+>>>>>>> e7fa16e8b9111a65889ce31e59dbf4f90b7b153e
     </div>
     <img src="<?= base_url() ?>assets/Images/bg-sec2.png" class="left-leaf-img" alt="Leaf">
     <div class="bg-img">

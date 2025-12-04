@@ -144,7 +144,11 @@ class Home extends CI_Controller
 
         $this->load->view('bag');
     }
+<<<<<<< HEAD
   public function subscription()
+=======
+    public function subscription()
+>>>>>>> e7fa16e8b9111a65889ce31e59dbf4f90b7b153e
     {
         $data['title'] = 'subscription';
 
