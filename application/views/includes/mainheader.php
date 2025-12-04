@@ -29,14 +29,17 @@
 
 <!-- cart popup -->
 
-<div class="cart-popup" id="cartPopup">
-  <div class="cart-popup-inner">
-    <h4>Your Cart</h4>
-    <div id="cartItems"></div>
 
-    <a href="<?= base_url('cart'); ?>">
-      <button class="cart-btn mt-3">View cart</button>
-    </a>
+<div id="cartPopup" class="cart-popup">
+  <div class="cart-popup-header">
+    <strong>Your Cart</strong>
+    <button id="closeCartPopup" class="close-popup">✕</button>
+  </div>
+
+  <div id="cartItems" class="cart-items-box"></div>
+
+  <div class="cart-popup-footer view-btn">
+    <a href="<?= base_url('cart') ?>" class="view-cart-btn">View Cart</a>
   </div>
 </div>
 
@@ -56,7 +59,7 @@
       take on a whole new dimension of beautiful.
     </p>
 
-    <img class="menu-signature" src="<?= base_url() ?>assets/icons/sign.png">
+    <img class="menu-signature" src="<?= base_url() ?>assets/icons/sign2.png">
     <p class="menu-small-sub font-oswaldextralight">Founder</p>
 
     <div class="menu-grid">

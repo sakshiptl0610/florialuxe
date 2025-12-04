@@ -1,6 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
+// $config['base_url'] = 'https://florialuxe.ae/florialuxe/';
 $config['base_url'] = 'http://localhost/florialuxe/';
 
 $config['index_page'] = '';

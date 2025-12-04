@@ -189,12 +189,11 @@
           </div>
         </div>
 
-
-
-
-
       </div>
     </div>
+  </div>
+
+</div>
 
 
     <section class="season-section position-relative">
@@ -253,7 +252,8 @@
         class="subscription-bg" alt="bg">
 
       <div class="subscription-badge">
-        <img src="<?= base_url() ?>assets/icons/FLORIA-SUB ICON-5svg.svg" alt="bg">
+         <a href="<?= base_url('subscription'); ?>">
+        <img src="<?= base_url() ?>assets/icons/FLORIA-SUB ICON-5svg.svg" alt="bg"></a>
       </div>
     </section>
 

@@ -8,7 +8,9 @@
         </div>
 
         <div class="footer-right">
+             <a href="<?php echo base_url('home'); ?>">
             <img src="<?= base_url() ?>assets/logo/footer-logo.svg" class="footer-logo" alt="Floria Luxe Logo">
+            </a>
         </div>
 
     </div>

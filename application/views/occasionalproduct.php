@@ -16,7 +16,7 @@
 
     <!-- PRODUCT GRID -->
     <div class="main-container pb-5 mt-5">
-      <div class="row gy-4 justify-content-center">
+   <div class="row gy-4 justify-content-center">
 
         <div class="col-lg-4 col-md-6">
           <div class="emotion-card">
@@ -40,8 +40,8 @@
           <div class="emotion-card">
             <a href="<?= base_url('birthday'); ?>">
               <img src="assets/Images/FLORIA-17.jpg" alt="">
-            </a>
-            <div class="label-box text-center font-nexalight">Birth Day</div>
+          
+            <div class="label-box text-center font-nexalight">Birth Day</div>  </a>
           </div>
         </div>
 
@@ -49,9 +49,9 @@
           <div class="emotion-card">
             <a href="<?= base_url('annivarsary'); ?>">
               <img src="assets/Images/FLORIA-18.jpg" alt="">
-            </a>
+           
             <div class="label-box text-center font-nexalight">Anniversary
-            </div>
+            </div> </a>
           </div>
         </div>
 
@@ -59,8 +59,8 @@
           <div class="emotion-card">
             <a href="<?= base_url('wedding'); ?>">
               <img src="assets/Images/FLORIA-19.jpg" alt="">
-            </a>
-            <div class="label-box text-center font-nexalight">Weddings</div>
+          
+            <div class="label-box text-center font-nexalight">Weddings</div>  </a>
           </div>
         </div>
 
@@ -68,8 +68,8 @@
           <div class="emotion-card">
             <a href="<?= base_url('newborn'); ?>">
               <img src="assets/Images/FLORIA-20.jpg" alt="">
-            </a>
-            <div class="label-box text-center font-nexalight">New Born</div>
+          
+            <div class="label-box text-center font-nexalight">New Born</div>  </a>
           </div>
         </div>
 
@@ -133,7 +133,8 @@
         class="subscription-bg" alt="bg">
 
       <div class="subscription-badge">
-        <img src="<?= base_url() ?>assets/icons/FLORIA-SUB ICON-5svg.svg" alt="bg">
+         <a href="<?= base_url('subscription'); ?>">
+        <img src="<?= base_url() ?>assets/icons/FLORIA-SUB ICON-5svg.svg" alt="bg"></a>
       </div>
     </section>
 

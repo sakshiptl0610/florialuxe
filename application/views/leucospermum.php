@@ -35,7 +35,10 @@
           <div class=" product-content-box">
 
             <p class="font-canegroni text-color title">Leucospermum</p>
-            <h5 class="text-color mt-3 "><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">125</h5>
+            <h5 class="text-color mt-3 product-price" data-price="125">
+              <img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" class="dirham">125
+            </h5>
+
 
             <p class="text-color font-nexalight tagline mt-3 ">
               Our Leucospermum flowers feature striking pin-cushion blooms and vibrant, long-lasting color. Sourced from premium farms, they bring a bold, exotic touch to any arrangement. Their unique texture and strong presence make them perfect for luxury bouquets, modern décor, and artistic floral designs.
@@ -201,47 +204,96 @@
       <!-- RELATED PRODUCTS -->
       <h3 class="mt-5">Related Products</h3>
 
+
+
       <div class="row row-cols-1 row-cols-md-4 g-4 mt-2">
 
         <!-- Product Card -->
         <div class="col product-box">
           <div class="card border-0">
-            <img src="<?= base_url() ?>assets/Images/FLORIA-11.jpg">
-            <div class="price-row">
-              <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">145</span>
-              <span class="add-btn">Add to cart</span>
-            </div>
+            <a href="<?php echo base_url('candle'); ?>">
+              <img src="<?= base_url() ?>assets/Images/candle.webp">
+              <div class="hover-card mt-5">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                  <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                  <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                </svg>
+                <h3 class="font-canegroni">Candles</h3>
+
+              </div>
+              <div class="price-row">
+                <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">145</span>
+                <span class="add-btn">Add to cart</span>
+              </div>
+            </a>
           </div>
         </div>
 
         <div class="col product-box">
           <div class="card border-0">
-            <img src="<?= base_url() ?>assets/Images/FLORIA-9.jpg">
-            <div class="price-row">
-              <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">145</span>
-              <span class="add-btn">Add to cart</span>
-            </div>
+            <a href="<?php echo base_url('chocolate'); ?>">
+              <img src="<?= base_url() ?>assets/Images/chocolate.jpg">
+              <div class="hover-card mt-5">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                  <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                  <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                </svg>
+                <h3 class="font-canegroni fs-5">Chocolates</h3>
+
+              </div>
+              <div class="price-row">
+                <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">145</span>
+                <span class="add-btn">Add to cart</span>
+              </div>
+            </a>
           </div>
         </div>
         <div class="col product-box">
           <div class="card border-0">
-            <img src="<?= base_url() ?>assets/Images/FLORIA-8.jpg">
-            <div class="price-row">
-              <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">145</span>
-              <span class="add-btn">Add to cart</span>
-            </div>
+            <a href="<?php echo base_url('card'); ?>">
+              <img src="<?= base_url() ?>assets/Images/card.webp">
+              <div class="hover-card mt-5">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                  <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                  <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                </svg>
+                <h3 class="font-canegroni">Cards</h3>
+
+              </div>
+              <div class="price-row">
+                <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">145</span>
+                <span class="add-btn">Add to cart</span>
+              </div>
+            </a>
           </div>
         </div>
         <div class="col product-box">
           <div class="card border-0">
-            <img src="https://roisin.qodeinteractive.com/wp-content/uploads/2019/12/main-home-shop-img-4-600x600.jpg">
-            <div class="price-row">
-              <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">145</span>
-              <span class="add-btn">Add to cart</span>
-            </div>
+            <a href="<?php echo base_url('bag'); ?>">
+              <img src="<?= base_url() ?>assets/Images/bag.webp">
+              <div class="hover-card mt-5">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                  <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                  <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                </svg>
+                <h3 class="font-canegroni">Gift Bags</h3>
+
+              </div>
+              <div class="price-row">
+                <span class="price"><img src="<?= base_url() ?>assets/icons/FLORIA-DIRHAM.svg" alt="" class="dirham">145</span>
+                <span class="add-btn">Add to cart</span>
+              </div>
+            </a>
           </div>
         </div>
-        <!-- Repeat as needed -->
       </div>
     </div>
   </div>

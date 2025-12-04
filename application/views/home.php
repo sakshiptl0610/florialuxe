@@ -1,6 +1,36 @@
 <?php include('includes/header-link.php') ?>
 <?php include('includes/header.php') ?>
 
+<style>
+    .text-revel-animation-wrapper .text-revel-overlay {
+        position: absolute;
+        right: 25px;
+        top: 60px;
+        height: 70%;
+        width: 60%;
+        background: #ffffff;
+        filter: blur(12px);
+        transform-origin: left;
+        transform: scaleX(1);
+        z-index: 9999999;
+        margin-right: 200px;
+    }
+
+    .text-revel-animation-wrapper2 .text-revel-overlay2 {
+        position: absolute;
+        right: -110px;
+        top: 57px;
+        height: 70%;
+        width: 100%;
+        background: #ffffff;
+        filter: blur(12px);
+        transform-origin: left;
+        transform: scaleX(1);
+        z-index: 9999999;
+        margin-right: 115px;
+    }
+</style>
+
 <header class="floria-header">
     <div class="header-container">
         <div class="logo">
@@ -36,7 +66,7 @@
         </p>
 
 
-        <img class="menu-signature" src="<?= base_url() ?>assets/icons/sign.png">
+        <img class="menu-signature" src="<?= base_url() ?>assets/icons/sign2.png">
         <p class="menu-small-sub font-oswaldextralight">Founder</p>
 
         <div class="menu-grid">
@@ -67,7 +97,7 @@
     <div class="bg-layer"></div>
 
     <div class="bg-image">
-        <div class="container">
+        <div class="container line-h">
             <span class="subtitle font-adelia">every bloom</span>
             <p class="title-main">
             <p class="title-main">
@@ -113,47 +143,62 @@
             and graceful forms bringing warmth and emotion to every moment.
         </p>
 
-        <h3 class="signature-text mt-5">designed with love</h3>
+        <h3 class="signature-text">designed with love</h3>
 
-        <p class="sub-text mt-4 font-nexalight">Inspired by nature. Tailored by hand.</p>
+        <p class="sub-text mt-4 font-nexalight">Inspired by nature. <br> Tailored by hand.</p>
     </div>
 </section>
 
 
 <section class="floria-double-section position-relative">
-    <div class="top-right-img">
-        <div class="sub-line2"><span> New arrangements
-
-            </span>
+    <div class="top-right-img ">
+        <div class="sub-line2 animate-block text-revel-animation-wrapper show">
+            <div class="text-revel-overlay"></div>
+            <span class="animate-text">New arrangements</span>
             <svg class="sub-line-svg" xmlns="http://www.w3.org/2000/svg" width="12.875" height="99.375" viewBox="0 0 12.875 99.375">
-                <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
-                <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901 c1.594-0.412,2.357-1.25,3.348-2.558 c1.48-1.951,2.17-3.886,2.419-6.336 c0.142-1.393-0.162-2.887,0.118-4.235 c-0.28,2.665-3.648,4.36-5.069,6.397 c-1.135,1.625-1.124,2.954-1.649,4.763 c-0.546,1.879-1.48,1.798-2.831,2.889 C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                <line class="line-anim" fill="none" stroke="#338E8B" stroke-miterlimit="10"
+                    x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+
+                <path class="leaf-anim" fill="#3F8171"
+                    d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901
+              c1.594-0.412,2.357-1.25,3.348-2.558 c1.48-1.951,2.17-3.886,2.419-6.336
+              c0.142-1.393-0.162-2.887,0.118-4.235 c-0.28,2.665-3.648,4.36-5.069,6.397
+              c-1.135,1.625-1.124,2.954-1.649,4.763 c-0.546,1.879-1.48,1.798-2.831,2.889
+              C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
             </svg>
-        </div><img src="https://florialuxe.ae/florialuxe/assets/Images/FLORIA-2.jpg" class="w-100" alt="Florist">
+        </div>
+
+
+        <div class="reveal-right">
+            <img src="<?= base_url() ?>assets/Images/about.png" alt="Leaf">
+        </div>
+
     </div>
-
-
-
-
-
-
-
     <img src="<?= base_url() ?>assets/Images/bg-sec2.png" class="left-leaf-img" alt="Leaf">
     <div class="bg-img">
         <div class="container">
             <div class="row align-items-center">
 
                 <div class="col-lg-6 position-relative">
-                    <div class="sub-line3"><span>
+
+                    <div class="sub-line3 animate-block text-revel-animation-wrapper2">
+                        <div class="text-revel-overlay2"></div>
+                        <span class="animate-text">
                             Flower specialist
 
                         </span>
-                        <svg class="sub-line-svg" xmlns="http://www.w3.org/2000/svg" width="12.875" height="99.375" viewBox="0 0 12.875 99.375">
-                            <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
-                            <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901 c1.594-0.412,2.357-1.25,3.348-2.558 c1.48-1.951,2.17-3.886,2.419-6.336 c0.142-1.393-0.162-2.887,0.118-4.235 c-0.28,2.665-3.648,4.36-5.069,6.397 c-1.135,1.625-1.124,2.954-1.649,4.763 c-0.546,1.879-1.48,1.798-2.831,2.889 C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
-                        </svg>
+                        <div class="svg-reveal second-patti">
+                            <svg class="sub-line-svg" xmlns="http://www.w3.org/2000/svg" width="12.875" height="99.375" viewBox="0 0 12.875 99.375">
+                                <line fill="none" stroke="#338E8B" stroke-miterlimit="10"
+                                    x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+
+                                <path fill="#3F8171" class="sagar-leaf" style="opacity: 0;"
+                                    d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901 c1.594-0.412,2.357-1.25,3.348-2.558 c1.48-1.951,2.17-3.886,2.419-6.336 c0.142-1.393-0.162-2.887,0.118-4.235 c-0.28,2.665-3.648,4.36-5.069,6.397 c-1.135,1.625-1.124,2.954-1.649,4.763 c-0.546,1.879-1.48,1.798-2.831,2.889 C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                            </svg>
+                        </div>
+
                     </div>
-                    <div class="left-image-frame">
+                    <div class="left-image-frame roisin-img-reveal">
                         <img src="<?= base_url() ?>assets/Images/FLORIA-3.jpg"
                             alt="Bouquet" class="img-fluid main-bouquet">
 
@@ -167,7 +212,7 @@
                             WHERE NATURE <br> MEETS ARTISTRY
                         </h2>
 
-                        <p class="desc font-nexalight">
+                        <p class="desc mt-3 font-nexalight">
                             At Floria Luxe, we believe flowers speak a language of their own.
                             Every arrangement is thoughtfully designed to evoke emotion,
                             celebrate beauty.
@@ -416,8 +461,19 @@
                     <div class="emotion-card">
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-15.jpg" alt="">
+
+                            <div class="hover-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                    <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                    <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                                </svg>
+                                <h3 class="font-canegroni">Valentine's Day</h3>
+
+                            </div>
                         </a>
-                        <div class="label-box font-nexalight">Valentine's Day</div>
+
                     </div>
                 </div>
 
@@ -425,8 +481,18 @@
                     <div class="emotion-card">
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-16.jpg" alt="">
+
+                            <div class="hover-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                    <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                    <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                                </svg>
+                                <h3 class="font-canegroni">Mother's Day</h3>
+
+                            </div>
                         </a>
-                        <div class="label-box font-nexalight">Mother's Day</div>
                     </div>
                 </div>
 
@@ -434,8 +500,18 @@
                     <div class="emotion-card">
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-17.jpg" alt="">
+
+                            <div class="hover-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                    <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                    <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                                </svg>
+                                <h3 class="font-canegroni">Birth Day</h3>
+
+                            </div>
                         </a>
-                        <div class="label-box font-nexalight">Birth Day</div>
                     </div>
                 </div>
 
@@ -443,9 +519,18 @@
                     <div class="emotion-card">
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-18.jpg" alt="">
+
+                            <div class="hover-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                    <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                    <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                                </svg>
+                                <h3 class="font-canegroni fs-4">Annivarsary</h3>
+
+                            </div>
                         </a>
-                        <div class="label-box font-nexalight">Anniversary
-                        </div>
                     </div>
                 </div>
 
@@ -453,8 +538,19 @@
                     <div class="emotion-card">
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-19.jpg" alt="">
+
+                            <div class="hover-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                    <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                    <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                                </svg>
+                                <h3 class="font-canegroni">Wedding</h3>
+
+                            </div>
                         </a>
-                        <div class="label-box font-nexalight">Weddings</div>
+
                     </div>
                 </div>
 
@@ -462,8 +558,18 @@
                     <div class="emotion-card">
                         <a href="<?= base_url('occasionalproduct'); ?>">
                             <img src="assets/Images/FLORIA-20.jpg" alt="">
+
+                            <div class="hover-card">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="12.875px" height="99.375px" viewBox="0 0 12.875 99.375" enable-background="new 0 0 12.875 99.375" xml:space="preserve">
+                                    <line fill="none" stroke="#338E8B" stroke-miterlimit="10" x1="2.221" y1="17.431" x2="2.221" y2="97.431"></line>
+                                    <path fill="#3F8171" d="M2.098,15.908c0.406-1.32,2.564-1.597,3.742-1.901c1.594-0.412,2.357-1.25,3.348-2.558
+			        c1.48-1.951,2.17-3.886,2.419-6.336c0.142-1.393-0.162-2.887,0.118-4.235c-0.28,2.665-3.648,4.36-5.069,6.397
+			                  c-1.135,1.625-1.124,2.954-1.649,4.763c-0.546,1.879-1.48,1.798-2.831,2.889C2.185,15.081,2.272,15.167,2.098,15.908z"></path>
+                                </svg>
+                                <h3 class="font-canegroni">New Born</h3>
+
+                            </div>
                         </a>
-                        <div class="label-box font-nexalight">New Born</div>
                     </div>
                 </div>
 
@@ -530,9 +636,63 @@
         class="subscription-bg" alt="bg">
 
     <div class="subscription-badge">
-        <img src="<?= base_url() ?>assets/icons/FLORIA-SUB ICON-5svg.svg" alt="bg">
+        <a href="<?= base_url('subscription'); ?>">
+            <img src="<?= base_url() ?>assets/icons/FLORIA-SUB ICON-5svg.svg" alt="bg"></a>
     </div>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.to(".text-revel-overlay", {
+        width: 0,
+        duration: 4,
+        ease: "power2.out",
+        scrollTrigger: {
+            trigger: ".text-revel-animation-wrapper",
+            start: "top 50%",
+            toggleActions: "play none none reverse"
+        }
+    });
+    gsap.to(".text-revel-overlay2", {
+        width: 0,
+        duration: 4,
+        ease: "power2.out",
+
+        scrollTrigger: {
+            trigger: ".text-revel-animation-wrapper2",
+            start: "top 80%",
+            toggleActions: "play none none reverse"
+        },
+        onComplete: () => {
+
+            document.querySelector(".second-patti").classList.add("show");
+
+        }
+    });
+    gsap.to(".second-patti", {
+        delay: 1.5,
+        onStart: () => {
+            document.querySelector(".second-patti").classList.add("show");
+        },
+        scrollTrigger: {
+            trigger: ".text-revel-animation-wrapper2",
+            start: "top 80%",
+            toggleActions: "play none none reverse"
+        }
+    });
+    gsap.to(".sagar-leaf", {
+        delay: 2.5,
+        opacity: 1,
+        scrollTrigger: {
+            trigger: ".text-revel-animation-wrapper2",
+            start: "top 80%",
+            toggleActions: "play none none reverse"
+        }
+    });
+</script>
 
 
 <?php include('includes/footer-link.php') ?>
